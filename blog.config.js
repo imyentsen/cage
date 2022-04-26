@@ -3,7 +3,7 @@ const BLOG = {
   author: 'Ansin Lau',
   email: 'y@dualai.com',
   link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
+  description: 'An inforgraph a day opens your mind on key  issues',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
