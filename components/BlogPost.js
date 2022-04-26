@@ -20,14 +20,9 @@ const BlogPost = ({ post }) => {
             <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
               {post.summary}
             </p>
-            <p>{post.image}</p>
-            <Image
+            <img
               src={post.image}
               alt="Picture of the author"
-              // width={500} automatically provided
-              // height={500} automatically provided
-              // blurDataURL="data:..." automatically provided
-              // placeholder="blur" // Optional blur-up while loading
             />
           </main>
         </article>
