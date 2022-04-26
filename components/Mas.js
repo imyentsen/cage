@@ -1,7 +1,7 @@
 
 const Mas = ({ slogan }) => {
   return (
-    <div className="py-12 text-2xl text-center">
+    <div className="p-20 text-3xl text-center font-bold">
       <p>{slogan}</p>
     </div>
   )
