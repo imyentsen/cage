@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import BLOG from '@/blog.config'
 import formatDate from '@/lib/formatDate'
+import Image from 'next/image'
 
 const BlogPost = ({ post }) => {
   return (
@@ -19,7 +20,14 @@ const BlogPost = ({ post }) => {
             <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
               {post.summary}
             </p>
-            <img src={post.image}/>
+            <Image
+              src={post.image}
+              alt="Picture of the author"
+              // width={500} automatically provided
+              // height={500} automatically provided
+              // blurDataURL="data:..." automatically provided
+              // placeholder="blur" // Optional blur-up while loading
+            />
           </main>
         </article>
       </a>
