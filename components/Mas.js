@@ -1,6 +1,6 @@
 const Mas = ({ slogan }) => {
   return (
-    <div className="text-2xl">
+    <div className="tag-container">
       <p>{slogan}</p>
     </div>
   )
