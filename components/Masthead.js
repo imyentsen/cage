@@ -10,7 +10,6 @@ const Masthead = ({ fullWidth }) => {
         <p>
         The Cage Revisited
         </p>
-
         <p>
         An inforgraph a day opens your mind on key issues 
         </p>
