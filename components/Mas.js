@@ -1,6 +1,6 @@
 import BLOG from '@/blog.config'
 import Vercel from '@/components/Vercel'
-const Footer = ({ fullWidth }) => {
+const Mas = ({ fullWidth }) => {
   const d = new Date()
   const y = d.getFullYear()
   const from = +BLOG.since
@@ -23,4 +23,4 @@ const Footer = ({ fullWidth }) => {
   )
 }
 
-export default Footer
+export default Mas
