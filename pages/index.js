@@ -3,6 +3,7 @@ import BlogPost from '@/components/BlogPost'
 import Pagination from '@/components/Pagination'
 import { getAllPosts } from '@/lib/notion'
 import BLOG from '@/blog.config'
+import Masthead from '@/components/Masthead'
 
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
@@ -22,8 +23,7 @@ export async function getStaticProps () {
 const blog = ({ postsToShow, page, showNext }) => {
   return (
     <Container title={BLOG.title} description={BLOG.description}>
-      <h1>The Cage Revisited</h1>
-      <h1>An inforgraph a day opens your mind on key issues</h1>
+      <Masthead/>
       {postsToShow.map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
