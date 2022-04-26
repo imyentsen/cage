@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import BLOG from '@/blog.config'
 import formatDate from '@/lib/formatDate'
-import Image from 'next/image'
 
 const BlogPost = ({ post }) => {
   return (
