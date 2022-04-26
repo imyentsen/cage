@@ -1,8 +1,7 @@
 
-const Mas = () => ( 
+export const Mas = () => ( 
   <div>
     <p>123</p>
   </div>
 )
 
-export default Mas
