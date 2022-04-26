@@ -19,6 +19,7 @@ const BlogPost = ({ post }) => {
             <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
               {post.summary}
             </p>
+            <img src={post.image}/>
           </main>
         </article>
       </a>
