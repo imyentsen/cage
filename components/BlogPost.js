@@ -20,14 +20,11 @@ const BlogPost = ({ post }) => {
               {post.summary}
             </p>
             <div className='py-8'>
-              {post.image ?
-                <img
+
+            <img
                   src={post.image}
                   className='w-full'
                   />
-                  :
-                <></>
-              }
               
             </div>
           </main>
