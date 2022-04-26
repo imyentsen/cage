@@ -21,7 +21,9 @@ const BlogPost = ({ post }) => {
               {post.summary}
             </p>
             <div className='py-8'>
-              <img src={post.image}/>
+              <img
+                src={post.image}
+              />
             </div>
           </main>
         </article>
