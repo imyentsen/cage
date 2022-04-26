@@ -1,3 +1,9 @@
-export default () => <h1 className="bg-primary text-white text-center p-2">
-  Hello Adam
-</h1>
+const Mas = ({ slogan }) => {
+  return (
+    <div className="tag-container">
+      <p>{slogan}</p>
+    </div>
+  )
+}
+
+export default Mas
