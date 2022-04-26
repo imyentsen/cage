@@ -24,7 +24,7 @@ const blog = ({ postsToShow, page, showNext }) => {
   return (
     <Container title={BLOG.title} description={BLOG.description}>
       <Mas title="The Cage Revisited" slogan="An inforgraph a day opens your mind on key issues"/>
-      {postsToShow[0].map(post => (
+      {postsToShow[0](post => (
         <BlogPost key={post.id} post={post} />
       ))}
       <hr/>
