@@ -1,4 +1,5 @@
 import BLOG from '@/blog.config'
+import Vercel from '@/components/Vercel'
 const Mas = ({ }) => {
   const d = new Date()
   const y = d.getFullYear()
@@ -7,8 +8,8 @@ const Mas = ({ }) => {
     <div
       className={`mt-6 flex-shrink-0 m-auto w-full text-gray-500 transition-all max-w-2xl px-4`}
     >
-      
-      <div className="my-4 text-sm leading-6">
+
+<div className="my-4 text-sm leading-6">
         <div className="flex align-baseline justify-between flex-wrap">
             <h1 className="2xl">The Cage Revisited</h1>
             <h1 className="2xl">An inforgraph a day opens your mind on key issues </h1>
