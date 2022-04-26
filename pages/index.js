@@ -24,7 +24,7 @@ const blog = ({ postsToShow, page, showNext }) => {
   return (
     <Container title={BLOG.title} description={BLOG.description}>
       <Mas title="The Cage Revisited" slogan="An inforgraph a day opens your mind on key issues"/>
-      {postsToShow.slice(0,1).map(post => (
+      {postsToShow.slice(1).map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
       {showNext && <Pagination page={page} showNext={showNext} />}
