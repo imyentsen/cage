@@ -1,7 +1,7 @@
 
 const Mas = ({ slogan }) => {
   return (
-    <div className="tag-container">
+    <div className="px-8">
       <p>{slogan}</p>
     </div>
   )
