@@ -68,7 +68,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
-                <Image src="./public/favicon.svg" height={30} width={30} />
               </div>
             </a>
           </Link>
