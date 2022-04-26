@@ -1,6 +1,6 @@
 const Mas = ({ slogan }) => {
   return (
-    <div className="">
+    <div>
       <p>{slogan}</p>
     </div>
   )
