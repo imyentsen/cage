@@ -2,7 +2,6 @@ import Link from 'next/link'
 import BLOG from '@/blog.config'
 import formatDate from '@/lib/formatDate'
 
-
 const BlogPost = ({ post }) => {
   return (
     <Link href={`${BLOG.path}/${post.slug}`}>
@@ -24,7 +23,7 @@ const BlogPost = ({ post }) => {
               <img
                 src={post.image}
               />
-            </div>
+              </div>
           </main>
         </article>
       </a>
