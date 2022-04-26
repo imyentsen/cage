@@ -22,6 +22,8 @@ export async function getStaticProps () {
 const blog = ({ postsToShow, page, showNext }) => {
   return (
     <Container title={BLOG.title} description={BLOG.description}>
+      <h1>The Cage Revisited</h1>
+      <h1>An inforgraph a day opens your mind on key issues </h1>
       {postsToShow.map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
