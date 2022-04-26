@@ -1,3 +1,4 @@
+
 const Mas = ({ slogan }) => {
   return (
     <div className="tag-container">
@@ -7,5 +8,3 @@ const Mas = ({ slogan }) => {
 }
 
 export default Mas
-
-
