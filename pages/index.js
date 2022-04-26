@@ -1,7 +1,7 @@
 import Container from '@/components/Container'
 import BlogPost from '@/components/BlogPost'
 import Pagination from '@/components/Pagination'
-import Masthead from '@/components/Masthead'
+//import Masthead from '@/components/Masthead'
 import { getAllPosts } from '@/lib/notion'
 import BLOG from '@/blog.config'
 
@@ -23,7 +23,6 @@ export async function getStaticProps () {
 const blog = ({ postsToShow, page, showNext }) => {
   return (
     <Container title={BLOG.title} description={BLOG.description}>
-      <Masthead/>
       {postsToShow.map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
