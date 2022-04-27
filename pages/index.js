@@ -25,6 +25,9 @@ const blog = ({ postsToShow, page, showNext }) => {
   return (
     <Container title={BLOG.title} description={BLOG.description}>
       <Mas title="The Cage Revisited" slogan="An inforgraph a day opens your mind on key issues"/>
+      <div className='text-3xl'>
+        <p>{postsToShow[0].title}</p>
+      </div>
       {postsToShow.slice(1).map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
