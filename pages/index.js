@@ -4,6 +4,7 @@ import Mas from '@/components/Mas'
 import Pagination from '@/components/Pagination'
 import { getAllPosts } from '@/lib/notion'
 import BLOG from '@/blog.config'
+import formatDate from '@/lib/formatDate'
 
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
