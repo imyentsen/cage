@@ -9,10 +9,10 @@ const BlogPost = ({ post }) => {
       <a>
         <article key={post.id} className="mb-10 md:mb-12 p-2 md:p-12 bg-gray-100">
           <header className="flex flex-col justify-between cursor-pointer text-black text-center">
-            <time className="text-3xl mb-2">
+            <time className="text-2xl mb-2">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
             </time>
-            <h2 className="text-3xl mb-2">
+            <h2 className="text-2xl mb-2">
               {post.title}
             </h2>
           </header>
