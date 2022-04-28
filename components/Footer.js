@@ -1,6 +1,5 @@
 import BLOG from '@/blog.config'
 import Image from 'next/image'
-import { useLocale } from '@/lib/locale'
 import Link from 'next/link'
 
 const Footer = ({ fullWidth }) => {
