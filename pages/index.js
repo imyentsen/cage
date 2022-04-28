@@ -32,7 +32,7 @@ const blog = ({ postsToShow, page, showNext }) => {
       <main className='flex justify-center'>
         <Link href="/allpost">
           <a>
-            <button className="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded-full">
+            <button className="bg-transparent hover:bg-gray-900 text-gray-900 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded-full">
               See Previous Dates
             </button>
           </a>
