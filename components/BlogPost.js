@@ -24,6 +24,8 @@ const BlogPost = ({ post }) => {
               <Image
                 src={post.image}
                 alt="infograph of the day"
+                width={500} 
+                height={500} 
               />
               </div>
           </main>
