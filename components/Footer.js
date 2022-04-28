@@ -45,7 +45,7 @@ const Footer = ({ fullWidth }) => {
           <Image src="favicon.svg" height={64} width={64} />
         </a>
       </Link>
-      <p className="text-xl text-gray-900 header-name">
+      <p className="text-xl text-gray-900">
         The Cage Revisited
       </p>
       <FooterBar />
