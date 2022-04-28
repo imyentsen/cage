@@ -1,6 +1,7 @@
 import BLOG from '@/blog.config'
-import Vercel from '@/components/Vercel'
 import Image from 'next/image'
+import { useLocale } from '@/lib/locale'
+import Link from 'next/link'
 
 const FooterBar = () => {
   const locale = useLocale()
@@ -39,24 +40,15 @@ const Footer = ({ fullWidth }) => {
         !fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'
       }`}
     >
-      
       <div>
           <Link href="/">
             <a aria-label={BLOG.title}>
               <Image src="favicon.svg" height={64} width={64} />
             </a>
           </Link>
-          {navBarTitle
-            ? (
-            <p className="text-xl font-medium text-day dark:text-night header-name">
-              {navBarTitle}
-            </p>
-              )
-            : (
-            <p className="text-xl font-medium text-day dark:text-night header-name">
-              {BLOG.title}
-            </p>
-              )}
+          <p className="text-xl font-medium text-day dark:text-night header-name">
+            {BLOG.title}
+          </p>
         </div>
 
         <FooterBar />
