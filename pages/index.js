@@ -5,7 +5,6 @@ import Pagination from '@/components/Pagination'
 import { getAllPosts } from '@/lib/notion'
 import BLOG from '@/blog.config'
 import Link from 'next/link'
-import formatDate from '@/lib/formatDate'
 
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
@@ -32,9 +31,6 @@ const blog = ({ postsToShow, page, showNext }) => {
       ))}
       {showNext && <Pagination page={page} showNext={showNext} />}
       
-      <Link href="/allpost">
-        <a>TEST</a>
-      </Link>
     </Container>
   )
 }
