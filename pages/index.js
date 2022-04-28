@@ -1,7 +1,7 @@
 import Container from '@/components/Container'
 import BlogPost from '@/components/BlogPost'
 import Mas from '@/components/Mas'
-import Pagination from '@/components/Pagination'
+import Link from 'next/link'
 import { getAllPosts } from '@/lib/notion'
 import BLOG from '@/blog.config'
 
@@ -28,7 +28,11 @@ const blog = ({ postsToShow, page, showNext }) => {
       {postsToShow.map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
-      {showNext && <Pagination page={page} showNext={showNext} />}
+      <Link href="/allpost">
+        <button class="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded-full">
+          See Previous Dates
+        </button>
+      </Link>
     </Container>
   )
 }
