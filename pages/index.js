@@ -24,15 +24,20 @@ const blog = ({ postsToShow, page, showNext }) => {
   console.log(postsToShow[0])
   return (
     <Container title={BLOG.title} description={BLOG.description}>
-      <Mas title="The Cage Revisited" slogan="An inforgraph a day opens your mind on key issues"/>
+      <Mas title="Previous Dates" slogan=""/>
       {postsToShow.map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
-      <Link href="/allpost">
-        <button className="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded-full">
-          See Previous Dates
-        </button>
-      </Link>
+
+      <main className='flex justify-center'>
+        <Link href="/allpost">
+          <a>
+            <button className="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded-full">
+              See Previous Dates
+            </button>
+          </a>
+        </Link>
+      </main>
     </Container>
   )
 }

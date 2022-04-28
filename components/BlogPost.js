@@ -7,19 +7,16 @@ const BlogPost = ({ post }) => {
   return (
     <Link href={`${BLOG.path}/${post.slug}`}>
       <a>
-        <article key={post.id} className="mb-6 md:mb-8">
-          <header className="flex flex-col justify-between md:flex-row md:items-baseline">
-            <h2 className="text-lg md:text-xl font-medium mb-2 cursor-pointer text-black dark:text-gray-100">
-              {post.title}
-            </h2>
-            <time className="flex-shrink-0 text-gray-600 dark:text-gray-400">
+        <article key={post.id} className="mb-6 md:mb-8 border border-gray-500">
+          <header className="flex flex-col justify-between font-medium cursor-pointer text-black">
+            <time className="text-3xl mb-2">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
             </time>
+            <h2 className="text-3xl mb-2">
+              {post.title}
+            </h2>
           </header>
           <main>
-            <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
-              {post.summary}
-            </p>
             <div className='py-8 flex justify-center'>
               <Image
                 src={post.image}
@@ -27,7 +24,10 @@ const BlogPost = ({ post }) => {
                 width={500}
                 height={500}
               />
-              </div>
+            </div>
+            <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
+              {post.summary}
+            </p>
           </main>
         </article>
       </a>
