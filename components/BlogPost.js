@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import BLOG from '@/blog.config'
 import formatDate from '@/lib/formatDate'
+import Image from 'next/image'
 
 const BlogPost = ({ post }) => {
   return (
@@ -20,8 +21,9 @@ const BlogPost = ({ post }) => {
               {post.summary}
             </p>
             <div className='py-8'>
-              <img
+              <Image
                 src={post.image}
+                alt="infograph of the day"
               />
               </div>
           </main>

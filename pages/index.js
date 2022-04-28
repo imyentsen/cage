@@ -9,7 +9,7 @@ export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
   const postsToShow = posts.slice(0, 1)
   const totalPosts = posts.length
-  const showNext = totalPosts > BLOG.1
+  const showNext = totalPosts > 1
   return {
     props: {
       page: 1, // current page is 1
