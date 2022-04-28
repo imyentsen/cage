@@ -29,7 +29,7 @@ const blog = ({ postsToShow, page, showNext }) => {
         <BlogPost key={post.id} post={post} />
       ))}
       <Link href="/allpost">
-        <button class="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded-full">
+        <button className="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded-full">
           See Previous Dates
         </button>
       </Link>
