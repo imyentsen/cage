@@ -17,7 +17,7 @@ const BlogPost = ({ post }) => {
             </h2>
           </header>
           <main>
-            <div className='py-8 flex justify-center'>
+            <div className='p-4 my-4 flex justify-center bg-white'>
               <Image
                 src={post.image}
                 alt="infograph of the day"
