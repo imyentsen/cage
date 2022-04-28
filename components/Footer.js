@@ -36,24 +36,21 @@ const Footer = ({ fullWidth }) => {
   const from = +BLOG.since
   return (
     <div
-      className={`mt-12 m-auto w-full flex flex-col justify-center text-gray-500 dark:text-gray-400 transition-all ${
+      className={`my-12 mx-auto w-full flex justify-center text-gray-500 dark:text-gray-400 transition-all text-center ${
         !fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'
       }`}
     >
-      <div>
-        <Link href="/">
-          <a aria-label={BLOG.title}>
-            <Image src="favicon.svg" height={64} width={64} />
-          </a>
-        </Link>
-        <p className="text-xl font-medium text-day dark:text-night header-name">
-          {BLOG.title}
-        </p>
-      </div>
-
+      <Link href="/">
+        <a aria-label={BLOG.title}>
+          <Image src="favicon.svg" height={64} width={64} />
+        </a>
+      </Link>
+      <p className="text-xl font-medium text-day dark:text-night header-name">
+        {BLOG.title}
+      </p>
       <FooterBar />
       <p>
-        © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
+      © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
       </p>
     </div>
   )
