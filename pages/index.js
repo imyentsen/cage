@@ -26,11 +26,6 @@ const blog = ({ postsToShow, page, showNext }) => {
   return (
     <Container title={BLOG.title} description={BLOG.description}>
       <Mas title="The Cage Revisited" slogan="An inforgraph a day opens your mind on key issues"/>
-      <div className='text-3xl my-8'>
-        <p>{formatDate(postsToShow[0].date?.start_date || postsToShow[0].createdTime, BLOG.lang)}</p>
-        <p>{postsToShow[0].title}</p>
-        <p className="md:block leading-8 text-gray-700">{postsToShow[0].summary}</p>
-      </div>
       {postsToShow.slice(1).map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
