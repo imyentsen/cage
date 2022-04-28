@@ -24,7 +24,7 @@ const allpost = ({ postsToShow, page, showNext }) => {
   console.log(postsToShow[0])
   return (
     <Container title={BLOG.title} description={BLOG.description}>
-      <Mas title="The Cage Revisited" slogan="An inforgraph a day opens your mind on key issues"/>
+      <Mas title="All Previous Dates"/>
       {postsToShow.slice(1).map(post => (
         <BlogPost key={post.id} post={post} />
       ))}

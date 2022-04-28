@@ -7,8 +7,8 @@ const BlogPost = ({ post }) => {
   return (
     <Link href={`${BLOG.path}/${post.slug}`}>
       <a>
-        <article key={post.id} className="mb-6 md:mb-8 border border-gray-500">
-          <header className="flex flex-col justify-between font-medium cursor-pointer text-black">
+        <article key={post.id} className="mb-6 md:mb-8">
+          <header className="flex flex-col justify-between cursor-pointer text-black text-center">
             <time className="text-3xl mb-2">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
             </time>
