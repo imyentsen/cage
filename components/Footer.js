@@ -3,33 +3,6 @@ import Image from 'next/image'
 import { useLocale } from '@/lib/locale'
 import Link from 'next/link'
 
-const FooterBar = () => {
-  const locale = useLocale()
-  const links = [
-    { id: 0, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 1, name: locale.NAV.SEARCH, to: '/search', show: true }
-  ]
-  return (
-    <div className="flex-shrink-0">
-      <ul className="flex flex-col">
-        {links.map(
-          link =>
-            link.show && (
-              <li
-                key={link.id}
-                className="block text-black dark:text-gray-50 nav"
-              >
-                <Link href={link.to}>
-                  <a>{link.name}</a>
-                </Link>
-              </li>
-            )
-        )}
-      </ul>
-    </div>
-  )
-}
-
 const Footer = ({ fullWidth }) => {
   const d = new Date()
   const y = d.getFullYear()
@@ -48,7 +21,6 @@ const Footer = ({ fullWidth }) => {
       <p className="text-xl text-gray-900">
         The Cage Revisited
       </p>
-      <FooterBar />
       <p>
       © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
       </p>
