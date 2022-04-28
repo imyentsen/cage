@@ -20,11 +20,12 @@ const BlogPost = ({ post }) => {
             <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
               {post.summary}
             </p>
-            <div className='py-8'>
+            <div className='py-8 flex justify-center'>
               <Image
                 src={post.image}
                 alt="infograph of the day"
-                layout="responsive"
+                width={500}
+                height={500}
               />
               </div>
           </main>
