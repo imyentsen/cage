@@ -13,7 +13,7 @@ const BlogPost = ({ post }) => {
             </time>
           </header>
           <main>
-            <div className='p-4 my-4 flex justify-center align-center bg-white iframe-border'>
+            <div className='p-4 my-4 flex justify-center align-center bg-white'>
               <iframe
                 src={post.image}
                 width="100%"

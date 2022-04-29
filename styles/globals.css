@@ -103,13 +103,10 @@ body::-webkit-scrollbar-thumb {
   @apply text-gray-600 dark:text-gray-300;
 }
 
-.iframe-wrapper {
-  width: 100%;
-  height: 400px;
-}
 
 .iframe-border:before, .blogpost-border:after, .blogpost-border>:first-child:before, .blogpost-border>:first-child:after {
     position:relative;
+    width: 100%;
     border-color:#333333; /* or whatever colour */
     border-style:solid; /* or whatever style */
     content: ' ';
@@ -118,6 +115,11 @@ body::-webkit-scrollbar-thumb {
 .iframe-border:after {top:0;right:0;border-width: 1px 1px 0 0}
 .iframe-border>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
 .iframe-border>:first-child:after {bottom:0;left:0;border-width: 0 0 1px 1px}
+
+.iframe-wrapper {
+  width: 100%;
+  height: 400px;
+}
 
 nav {
   flex-wrap: wrap;
