@@ -103,6 +103,10 @@ body::-webkit-scrollbar-thumb {
   @apply text-gray-600 dark:text-gray-300;
 }
 
+.iframe-wrapper {
+  height: 500px;
+}
+
 nav {
   flex-wrap: wrap;
   line-height: 1.5em;
@@ -147,3 +151,4 @@ nav {
     @apply bg-day bg-opacity-90 dark:bg-night dark:bg-opacity-90;
   }
 }
+
