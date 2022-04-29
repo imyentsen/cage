@@ -105,20 +105,19 @@ body::-webkit-scrollbar-thumb {
 
 .iframe-wrapper {
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 
-.blogpost-border:before, .blogpost-border:after, .blogpost-border>:first-child:before, .blogpost-border>:first-child:after {
-    position:absolute;
-    width:80px; height: 80px;
+.iframe-border:before, .blogpost-border:after, .blogpost-border>:first-child:before, .blogpost-border>:first-child:after {
+    position:relative;
     border-color:#333333; /* or whatever colour */
     border-style:solid; /* or whatever style */
     content: ' ';
 }
-.blogpost-border:before {top:0;left:0;border-width: 1px 0 0 1px}
-.blogpost-border:after {top:0;right:0;border-width: 1px 1px 0 0}
-.blogpost-border>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
-.blogpost-border>:first-child:after {bottom:0;left:0;border-width: 0 0 1px 1px}
+.iframe-border:before {top:0;left:0;border-width: 1px 0 0 1px}
+.iframe-border:after {top:0;right:0;border-width: 1px 1px 0 0}
+.iframe-border>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
+.iframe-border>:first-child:after {bottom:0;left:0;border-width: 0 0 1px 1px}
 
 nav {
   flex-wrap: wrap;
