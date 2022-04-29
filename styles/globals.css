@@ -119,7 +119,6 @@ body::-webkit-scrollbar-thumb {
 .blogpost-border:after {top:0;right:0;border-width: 1px 1px 0 0}
 .blogpost-border>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
 .blogpost-border>:first-child:after {bottom:0;left:0;border-width: 0 0 1px 1px}
-}
 
 nav {
   flex-wrap: wrap;
