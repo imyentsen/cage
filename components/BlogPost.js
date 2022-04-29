@@ -19,6 +19,7 @@ const BlogPost = ({ post }) => {
             <div className='p-4 my-4 flex justify-center bg-white'>
               <iframe
                 src={post.image}
+                height={500}
               />
             </div>
             <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
