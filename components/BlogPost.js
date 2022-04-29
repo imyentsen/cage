@@ -18,11 +18,8 @@ const BlogPost = ({ post }) => {
           </header>
           <main>
             <div className='p-4 my-4 flex justify-center bg-white'>
-              <Image
+              <iframe
                 src={post.image}
-                alt="infograph of the day"
-                width={500}
-                height={500}
               />
             </div>
             <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
