@@ -1,36 +1,56 @@
-import Container from '@/components/Container'
-import BlogPost from '@/components/BlogPost'
-import Mas from '@/components/Mas'
-import Pagination from '@/components/Pagination'
-import { getAllPosts } from '@/lib/notion'
-import BLOG from '@/blog.config'
+import React from 'react';
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
+import { Bar } from 'react-chartjs-2';
+import faker from 'faker';
 
-export async function getStaticProps () {
-  const posts = await getAllPosts({ includePages: false })
-  const postsToShow = posts.slice(0, BLOG.postsPerPage)
-  const totalPosts = posts.length
-  const showNext = totalPosts > BLOG.postsPerPage
-  return {
-    props: {
-      page: 1, // current page is 1
-      postsToShow,
-      showNext
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
+export const options = {
+  responsive: true,
+  plugins: {
+    legend: {
+      position: 'top' as const,
     },
-    revalidate: 1
-  }
-}
+    title: {
+      display: true,
+      text: 'Chart.js Bar Chart',
+    },
+  },
+};
 
-const allpost = ({ postsToShow, page, showNext }) => {
-  console.log(postsToShow[0])
-  return (
-    <Container title={BLOG.title} description={BLOG.description}>
-      <Mas title="All Previous Dates"/>
-      {postsToShow.slice(1).map(post => (
-        <BlogPost key={post.id} post={post} />
-      ))}
-      {showNext && <Pagination page={page} showNext={showNext} />}
-    </Container>
-  )
-}
+const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
 
-export default allpost
+export const data = {
+  labels,
+  datasets: [
+    {
+      label: 'Dataset 1',
+      data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
+      backgroundColor: 'rgba(255, 99, 132, 0.5)',
+    },
+    {
+      label: 'Dataset 2',
+      data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
+      backgroundColor: 'rgba(53, 162, 235, 0.5)',
+    },
+  ],
+};
+
+export function App() {
+  return <Bar options={options} data={data} />;
+}
