@@ -20,7 +20,7 @@ const BlogPost = ({ post }) => {
               <iframe
                 src={post.image}
                 width="100%"
-                height={450}
+                height={400}
               />
             </div>
             <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
