@@ -50,6 +50,6 @@ export const data = {
   ]
 }
 
-export function App () {
+export function V050122 () {
   return <Bar options={options} data={data} />
 }
