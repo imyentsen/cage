@@ -21,6 +21,7 @@ ChartJS.register(
 
 export const options = {
   responsive: true,
+  maintainAspectRatio: false,
   plugins: {
     legend: {
       position: 'top'
@@ -51,7 +52,8 @@ export const data = {
 }
 
 function V050122 () {
-  return <Bar options={options} data={data} />
+  return <Bar options={options} data={data} height={500}
+  />
 }
 
 export default V050122
