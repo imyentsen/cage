@@ -53,7 +53,7 @@ export const data = {
 
 function V050122 () {
   return (
-  <div className="iframe-wrapper flex-row justify-center">
+  <div className="iframe-wrapper">
     <Bar options={options} data={data} height={500}/>
   </div>
   )
