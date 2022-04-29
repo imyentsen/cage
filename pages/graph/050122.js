@@ -39,12 +39,12 @@ export const data = {
   datasets: [
     {
       label: 'Dataset 1',
-      data: [1,3,61,12,71,36,12],
+      data: [1, 3, 61, 12, 71, 36, 12],
       backgroundColor: 'rgba(255, 99, 132, 0.5)'
     },
     {
       label: 'Dataset 2',
-      data: [1,3,61,12,71,36,12],
+      data: [1, 3, 61, 12, 71, 36, 12],
       backgroundColor: 'rgba(53, 162, 235, 0.5)'
     }
   ]
