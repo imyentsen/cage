@@ -50,6 +50,8 @@ export const data = {
   ]
 }
 
-export function V050122 () {
+function V050122 () {
   return <Bar options={options} data={data} />
 }
+
+export default V050122
