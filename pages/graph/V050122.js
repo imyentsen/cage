@@ -52,8 +52,11 @@ export const data = {
 }
 
 function V050122 () {
-  return <Bar options={options} data={data} height={500}
-  />
+  return (
+  <div className="h-100 flex align-center">
+    <Bar options={options} data={data} height={500}/>
+  </div>
+  )
 }
 
 export default V050122
