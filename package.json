@@ -22,6 +22,7 @@
   "dependencies": {
     "axios": ">=0.21.1",
     "chart.js": "^3.7.1",
+    "faker": "^6.6.6",
     "feed": "^4.2.2",
     "gitalk": "^1.7.2",
     "next": "^12.1.0",
