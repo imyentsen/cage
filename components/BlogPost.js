@@ -17,7 +17,7 @@ const BlogPost = ({ post }) => {
               <iframe
                 src={post.image}
                 width="100%"
-                height={400}
+                height={550}
               />
             </div>
             <h2 className="text-2xl mb-2">
