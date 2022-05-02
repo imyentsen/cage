@@ -33,20 +33,20 @@ export const options = {
   }
 }
 
-const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July']
+const labels = ['台灣 2001,2020', '荷蘭 2000,2015', '德國 2000,2020', '日本 2001,2020', '新加坡 2000,2021', '美國 2002,2012', '挪威 2011,2021', '英國 1996,2018']
 
 export const data = {
   labels,
   datasets: [
     {
-      label: 'Dataset 1',
-      data: [1, 3, 61, 12, 71, 36, 12],
-      backgroundColor: 'rgba(255, 99, 132, 0.5)'
+      label: '2000年代',
+      data: [155.64, 357.16, 539.78, 382.10, 109.49, 1225.92, 106547.87, 621.75],
+      backgroundColor: '#CC564E'
     },
     {
-      label: 'Dataset 2',
-      data: [1, 3, 61, 12, 71, 36, 12],
-      backgroundColor: 'rgba(53, 162, 235, 0.5)'
+      label: '最近統計',
+      data: [160.57, 373.01, 599.11, 423.79, 91.75, 1355.40, 102654.41, 164.66],
+      backgroundColor: '#272B3A'
     }
   ]
 }
