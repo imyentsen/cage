@@ -27,7 +27,7 @@ const BlogPost = ({ post }) => {
             <Link href={`${BLOG.path}/${post.slug}`}>
               <a>
                 <p className="mt-2 leading-8 text-gray-700 dark:text-gray-300 underline text-center">
-                  More Info
+                  Read More
                 </p>
               </a>
             </Link>
