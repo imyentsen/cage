@@ -54,7 +54,6 @@ export const options = {
   }
 }
 
-
 const labels = ['2000年代', '最近統計']
 
 export const data = {
@@ -101,7 +100,7 @@ export const data = {
       borderColor: '#384C73',
       backgroundColor: '#384C73',
       yAxisID: 'y'
-    },
+    }
   ]
 }
 
