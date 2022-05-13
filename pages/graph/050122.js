@@ -36,7 +36,7 @@ export const options = {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'left',
       ticks: {
-        color: Utils.CHART_COLORS.red
+        color: '#CC564E'
       }
     },
     y2: {
@@ -44,7 +44,7 @@ export const options = {
       position: 'right',
       reverse: true,
       ticks: {
-        color: Utils.CHART_COLORS.blue
+        color: '#00CC4E'
       },
       grid: {
         drawOnChartArea: false // only want the grid lines for one axis to show up
