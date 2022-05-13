@@ -3,17 +3,19 @@ import {
   Chart as ChartJS,
   CategoryScale,
   LinearScale,
-  Title,
+  PointElement,
+  LineElement,
   Tooltip,
-  Legend
+  Legend,
 } from 'chart.js'
 import { Scatter } from 'react-chartjs-2'
 
 ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  Title,
-  Tooltip,
+  LinearScale, 
+  CategoryScale, 
+  PointElement, 
+  LineElement, 
+  Tooltip, 
   Legend
 )
 
