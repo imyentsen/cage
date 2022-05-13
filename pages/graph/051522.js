@@ -56,7 +56,6 @@ export const options = {
 
 
 const labels = ['2000年代', '最近統計']
-const labels = ['台灣', '新加坡', '日本', '荷蘭', '德國', '美國']
 
 export const data = {
   labels,
