@@ -3,7 +3,6 @@ import {
   Chart as ChartJS,
   CategoryScale,
   LinearScale,
-  PointElement,
   Title,
   Tooltip,
   Legend
@@ -13,7 +12,6 @@ import { Scatter } from 'react-chartjs-2'
 ChartJS.register(
   CategoryScale,
   LinearScale,
-  BarElement,
   Title,
   Tooltip,
   Legend
