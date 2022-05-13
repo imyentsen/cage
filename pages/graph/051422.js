@@ -28,7 +28,7 @@ export const options = {
     },
     title: {
       display: true,
-      text: '人均擁有建築用地的面積（平方公尺）'
+      text: '人均擁有建築用地的面積與房價所得比的對照'
     }
   },
   scales: {
@@ -36,14 +36,14 @@ export const options = {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'left',
       ticks: {
-        color: '#272B3A'
+        color: '#CB554D'
       }
     },
     y2: {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'right',
       ticks: {
-        color: '#357955'
+        color: '#2A303F'
       },
       grid: {
         drawOnChartArea: false // only want the grid lines for one axis to show up
@@ -52,23 +52,23 @@ export const options = {
   }
 }
 
-const labels = ['新加坡', '台灣', '日本', '荷蘭', '德國', '美國']
+const labels = ['新加坡', '台灣', '荷蘭', '日本', '德國', '美國']
 
 export const data = {
   labels,
   datasets: [
     {
-      label: '最近統計',
-      data: [91.75, 160.57, 423.79, 373.01, 599.11, 1355.40],
+      label: '人均建築用地面積（平方公尺）',
+      data: [91.75, 160.57, 373.01, 423.79, 599.11, 1355.40],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#272B3A',
+      backgroundColor: '#CB554D',
       yAxisID: 'y'
     },
     {
       label: '房價所得比',
-      data: [17.49, 21.81, 11.02, 7.15, 8.93, 3.96],
+      data: [17.49, 21.81, 7.15, 11.02, 8.93, 3.96],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#357955',
+      backgroundColor: '#2A303F',
       yAxisID: 'y2'
     }
   ]
