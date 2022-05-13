@@ -3,12 +3,12 @@ import {
   Chart as ChartJS,
   CategoryScale,
   LinearScale,
-  BarElement,
+  PointElement,
   Title,
   Tooltip,
   Legend
 } from 'chart.js'
-import { Bar } from 'react-chartjs-2'
+import { Scatter } from 'react-chartjs-2'
 
 ChartJS.register(
   CategoryScale,
@@ -70,7 +70,6 @@ export const data = {
       yAxisID: 'y'
     },
     {
-      type: 'scatter',
       label: '房價所得比',
       data: [21.81, 17.49, 11.02, 7.15, 8.93, 3.96],
       backgroundColor: '#357955',
@@ -82,7 +81,7 @@ export const data = {
 function V050122 () {
   return (
   <div className="my-auto chart-wrapper">
-    <Bar options={options} data={data} height={500}/>
+    <Scatter options={options} data={data} height={500}/>
   </div>
   )
 }
