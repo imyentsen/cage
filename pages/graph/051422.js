@@ -3,8 +3,7 @@ import {
   Chart as ChartJS,
   CategoryScale,
   LinearScale,
-  PointElement,
-  LineElement,
+  BarElement,
   Title,
   Tooltip,
   Legend
@@ -14,8 +13,7 @@ import { Line } from 'react-chartjs-2'
 ChartJS.register(
   CategoryScale,
   LinearScale,
-  PointElement,
-  LineElement,
+  BarElement,
   Title,
   Tooltip,
   Legend
@@ -38,7 +36,7 @@ export const options = {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'left',
       ticks: {
-        color: '#CC564E'
+        color: '#272B3A'
       }
     },
     y2: {
@@ -54,28 +52,21 @@ export const options = {
   }
 }
 
-const labels = ['台灣', '新加坡', '日本', '荷蘭', '德國', '美國']
+const labels = ['新加坡', '台灣', '日本', '荷蘭', '德國', '美國']
 
 export const data = {
   labels,
   datasets: [
     {
-      label: '2000年代',
-      data: [155.64, 109.49, 357.16, 382.10, 539.78, 1225.92],
-      borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#CC564E',
-      yAxisID: 'y'
-    },
-    {
       label: '最近統計',
-      data: [160.57, 91.75, 423.79, 373.01, 599.11, 1355.40],
+      data: [91.75, 160.57, 423.79, 373.01, 599.11, 1355.40],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#272B3A',
       yAxisID: 'y'
     },
     {
       label: '房價所得比',
-      data: [21.81, 17.49, 11.02, 7.15, 8.93, 3.96],
+      data: [17.49, 21.81, 11.02, 7.15, 8.93, 3.96],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#357955',
       yAxisID: 'y2'
