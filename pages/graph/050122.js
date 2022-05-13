@@ -50,7 +50,7 @@ export const options = {
         drawOnChartArea: false // only want the grid lines for one axis to show up
       }
     }
-  }  
+  }
 }
 
 const labels = ['台灣', '新加坡', '日本', '荷蘭', '德國', '美國']
