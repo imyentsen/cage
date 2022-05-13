@@ -4,11 +4,12 @@ import {
   CategoryScale,
   LinearScale,
   BarElement,
+  PointElement,
   Title,
   Tooltip,
   Legend
 } from 'chart.js'
-import { Scatter } from 'react-chartjs-2'
+import { Line } from 'react-chartjs-2'
 
 ChartJS.register(
   CategoryScale,
@@ -64,11 +65,13 @@ export const data = {
       yAxisID: 'y'
     },
     {
+      label: '最近統計',
       data: [160.57, 91.75, 423.79, 373.01, 599.11, 1355.40],
       backgroundColor: '#272B3A',
       yAxisID: 'y'
     },
     {
+      type: 'scatter',
       label: '房價所得比',
       data: [21.81, 17.49, 11.02, 7.15, 8.93, 3.96],
       backgroundColor: '#357955',
@@ -80,7 +83,7 @@ export const data = {
 function V050122 () {
   return (
   <div className="my-auto chart-wrapper">
-    <Scatter options={options} data={data} height={500}/>
+    <Bar options={options} data={data} height={500}/>
   </div>
   )
 }
