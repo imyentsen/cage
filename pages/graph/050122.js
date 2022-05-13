@@ -30,7 +30,27 @@ export const options = {
       display: true,
       text: '人均擁有建築用地的面積（平方公尺）'
     }
-  }
+  },
+  scales: {
+    y: {
+      type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+      position: 'left',
+      ticks: {
+        color: Utils.CHART_COLORS.red
+      }
+    },
+    y2: {
+      type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+      position: 'right',
+      reverse: true,
+      ticks: {
+        color: Utils.CHART_COLORS.blue
+      },
+      grid: {
+        drawOnChartArea: false // only want the grid lines for one axis to show up
+      }
+    }
+  }  
 }
 
 const labels = ['台灣', '新加坡', '日本', '荷蘭', '德國', '美國']
@@ -41,12 +61,20 @@ export const data = {
     {
       label: '2000年代',
       data: [155.64, 109.49, 357.16, 382.10, 539.78, 1225.92],
-      backgroundColor: '#CC564E'
+      backgroundColor: '#CC564E',
+      yAxisID: 'y'
     },
     {
       label: '最近統計',
       data: [160.57, 91.75, 423.79, 373.01, 599.11, 1355.40],
-      backgroundColor: '#272B3A'
+      backgroundColor: '#272B3A',
+      yAxisID: 'y'
+    },
+    {
+      label: '最近統計',
+      data: [360.57, 921.75, 423.79, 3723.01, 539.11, 1655.40],
+      backgroundColor: '#CDff00',
+      yAxisID: 'y2'
     }
   ]
 }

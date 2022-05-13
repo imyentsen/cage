@@ -11,6 +11,9 @@ const BlogPost = ({ post }) => {
             </time>
           </header>
           <main>
+            <h2 className="text-2xl mb-2 text-center">
+              {post.title}
+            </h2>
             <div className='p-4 my-4 flex justify-center align-center bg-white'>
               <iframe
                 src={post.image}
@@ -18,9 +21,6 @@ const BlogPost = ({ post }) => {
                 height={550}
               />
             </div>
-            <h2 className="text-2xl mb-2 text-center">
-              {post.title}
-            </h2>
             <p className="leading-8 text-gray-700 dark:text-gray-300">
               {post.summary}
             </p>
