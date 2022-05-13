@@ -42,9 +42,8 @@ export const options = {
     y2: {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'right',
-      reverse: true,
       ticks: {
-        color: '#00CC4E'
+        color: '#357955'
       },
       grid: {
         drawOnChartArea: false // only want the grid lines for one axis to show up
@@ -59,21 +58,24 @@ export const data = {
   labels,
   datasets: [
     {
+      type: 'bar',
       label: '2000年代',
       data: [155.64, 109.49, 357.16, 382.10, 539.78, 1225.92],
       backgroundColor: '#CC564E',
       yAxisID: 'y'
     },
     {
+      type: 'bar',
       label: '最近統計',
       data: [160.57, 91.75, 423.79, 373.01, 599.11, 1355.40],
       backgroundColor: '#272B3A',
       yAxisID: 'y'
     },
     {
-      label: '最近統計',
-      data: [360.57, 921.75, 423.79, 3723.01, 539.11, 1655.40],
-      backgroundColor: '#CDff00',
+      type: 'scatter',
+      label: '房價所得比',
+      data: [21.81, 17.49, 11.02, 7.15, 8.93, 3.96],
+      backgroundColor: '#357955',
       yAxisID: 'y2'
     }
   ]
