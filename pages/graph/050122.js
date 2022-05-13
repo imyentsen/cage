@@ -84,7 +84,7 @@ export const data = {
 function V050122 () {
   return (
   <div className="my-auto chart-wrapper">
-    <Chart type="line" options={options} data={data} height={500}/>
+    <Line options={options} data={data} height={500}/>
   </div>
   )
 }
