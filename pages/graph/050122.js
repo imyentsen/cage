@@ -8,7 +8,7 @@ import {
   Tooltip,
   Legend
 } from 'chart.js'
-import { Line } from 'react-chartjs-2'
+import { Bar } from 'react-chartjs-2'
 
 ChartJS.register(
   CategoryScale,
@@ -58,14 +58,12 @@ export const data = {
   labels,
   datasets: [
     {
-      type: 'bar',
       label: '2000年代',
       data: [155.64, 109.49, 357.16, 382.10, 539.78, 1225.92],
       backgroundColor: '#CC564E',
       yAxisID: 'y'
     },
     {
-      type: 'bar',
       label: '最近統計',
       data: [160.57, 91.75, 423.79, 373.01, 599.11, 1355.40],
       backgroundColor: '#272B3A',
@@ -84,7 +82,7 @@ export const data = {
 function V050122 () {
   return (
   <div className="my-auto chart-wrapper">
-    <Line options={options} data={data} height={500}/>
+    <Bar options={options} data={data} height={500}/>
   </div>
   )
 }
