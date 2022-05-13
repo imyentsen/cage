@@ -6,16 +6,16 @@ import {
   PointElement,
   LineElement,
   Tooltip,
-  Legend,
+  Legend
 } from 'chart.js'
 import { Scatter } from 'react-chartjs-2'
 
 ChartJS.register(
-  LinearScale, 
-  CategoryScale, 
-  PointElement, 
-  LineElement, 
-  Tooltip, 
+  LinearScale,
+  CategoryScale,
+  PointElement,
+  LineElement,
+  Tooltip,
   Legend
 )
 
