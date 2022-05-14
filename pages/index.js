@@ -7,7 +7,7 @@ import BLOG from '@/blog.config'
 
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
-  const postsToShow = posts.slice(0, 1)
+  const postsToShow = posts.slice(0, 3)
   const totalPosts = posts.length
   const showNext = totalPosts > 1
   return {
