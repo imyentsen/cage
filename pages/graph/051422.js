@@ -25,10 +25,6 @@ export const options = {
   plugins: {
     legend: {
       position: 'top'
-    },
-    title: {
-      display: true,
-      text: '人均擁有建築用地的面積與房價所得比的對照'
     }
   },
   scales: {
@@ -52,20 +48,20 @@ export const options = {
   }
 }
 
-const labels = ['新加坡', '台灣', '荷蘭', '日本', '德國', '美國']
+const labels = ['新加坡 Singapore', '台灣 Taiwan', '荷蘭 Netherlands', '日本 Japan', '德國 Germany', '美國 USA']
 
 export const data = {
   labels,
   datasets: [
     {
-      label: '人均建築用地面積（平方公尺）',
+      label: 'Average Land Size for Construction 人均建地面積 (m²)',
       data: [91.75, 160.57, 373.01, 423.79, 599.11, 1355.40],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#2A303F',
       yAxisID: 'y'
     },
     {
-      label: '房價所得比',
+      label: 'Property Price to Income Ratio 房價所得比',
       data: [17.49, 21.81, 7.15, 11.02, 8.93, 3.96],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#CB554D',
