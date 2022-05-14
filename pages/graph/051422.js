@@ -48,13 +48,13 @@ export const options = {
   }
 }
 
-const labels = ['新加坡 Singapore', '台灣 Taiwan', '荷蘭 Netherlands', '日本 Japan', '德國 Germany', '美國 USA']
+const labels = ['Singapore 新加坡', 'Taiwan 台灣', 'Netherlands 荷蘭', 'Japan 日本', 'Germany 德國', 'USA 美國']
 
 export const data = {
   labels,
   datasets: [
     {
-      label: 'Average Land Size for Construction 人均建地面積 (m²)',
+      label: 'Avg. Land Size for Construction Per Capita 人均建地面積 (m²)',
       data: [91.75, 160.57, 373.01, 423.79, 599.11, 1355.40],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#2A303F',

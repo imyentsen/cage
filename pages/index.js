@@ -28,16 +28,7 @@ const blog = ({ postsToShow, page, showNext }) => {
       {postsToShow.map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
-
-      <main className='flex justify-center'>
-        <Link href="/allpost">
-          <a>
-            <button className="bg-transparent hover:bg-gray-900 text-gray-900 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded-full">
-              See Previous Dates
-            </button>
-          </a>
-        </Link>
-      </main>
+      {showNext && <Pagination page={page} showNext={showNext} />}
     </Container>
   )
 }
