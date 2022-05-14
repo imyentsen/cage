@@ -1,14 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-  font-family: 'IBM Plex Sans';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url('/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
-}
 
 @font-face {
   font-family: 'Inter';
@@ -19,15 +11,6 @@
   src: url('/fonts/Inter-var.ttf') format('ttf');
 }
 
-
-@font-face {
-  font-family: 'IBM Plex Sans';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: italic;
-  font-named-instance: 'Italic';
-  src: url('/fonts/IBMPlexSansVar-Italic.woff2') format('woff2');
-}
 
 @font-face {
   font-family: 'Source Serif';
@@ -44,7 +27,7 @@
   font-display: swap;
   font-style: monospace;
   font-named-instance: 'Regular';
-  src: url('/SpaceMono-Regular.ttf') format('ttf');
+  src: url('/fonts/SpaceMono-Regular.ttf') format('ttf');
 }
 
 html {
