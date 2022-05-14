@@ -1,7 +1,6 @@
 import Container from '@/components/Container'
 import BlogPost from '@/components/BlogPost'
 import Mas from '@/components/Mas'
-import Link from 'next/link'
 import { getAllPosts } from '@/lib/notion'
 import BLOG from '@/blog.config'
 
