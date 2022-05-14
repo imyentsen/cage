@@ -50,15 +50,13 @@ export const data = {
     {
       label: '2000年代',
       data: [155.64, 109.49, 357.16, 382.10, 539.78, 1225.92],
-      borderColor: '#B59173',
       backgroundColor: '#B59173',
       yAxisID: 'y'
     },
     {
       label: '最近統計',
       data: [160.57, 91.75, 423.79, 373.01, 599.11, 1355.40],
-      borderColor: '#CB554D',
-      backgroundColor: '#CB554D',
+      backgroundColor: '#2A303F',
       yAxisID: 'y'
     }
   ]
