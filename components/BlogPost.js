@@ -4,7 +4,7 @@ import formatDate from '@/lib/formatDate'
 
 const BlogPost = ({ post }) => {
   return (
-        <article key={post.id} className="mb-10 md:mb-12 px-4 py-8 md:p-12 border border-sky-500 bg-gray-200">
+        <article key={post.id} className="mb-10 md:mb-12 px-4 py-8 md:p-12 border border-gray-300">
           <header className="flex flex-col justify-between cursor-pointer text-black text-center">
             <time className="text-xl mb-2 font-mono">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
@@ -23,14 +23,12 @@ const BlogPost = ({ post }) => {
             </div>
             <p className="leading-8 text-gray-700 dark:text-gray-300">
               {post.summary}
+              <Link href={`${BLOG.path}/${post.slug}`}>
+                <a className='underline'>
+                  &nbsp;...More
+                </a>
+              </Link>
             </p>
-            <Link href={`${BLOG.path}/${post.slug}`}>
-              <a>
-                <p className="mt-2 leading-8 text-gray-700 dark:text-gray-300 underline text-center">
-                  Read More
-                </p>
-              </a>
-            </Link>
           </main>
         </article>
   )
