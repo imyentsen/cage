@@ -64,7 +64,7 @@ export const data = {
 
 function V050122 () {
   return (
-  <div className="my-auto chart-wrapper">
+  <div className="my-auto chart-wrapper bg-white">
     <Bar options={options} data={data} height={500}/>
   </div>
   )

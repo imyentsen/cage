@@ -70,8 +70,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .bg-global{
-  background: #333;
-  background-image: linear-gradient(rgba(0, 255, 0, .7) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 255, 0, .7) .1em, transparent .1em);
+  background: #FFFFFF;
+  background-image: linear-gradient(rgba(232, 223, 8, .7) .1em, transparent .1em), linear-gradient(90deg, rgba(232, 223, 8, .7) .1em, transparent .1em);
   background-size: 3em 3em;
 }
 
