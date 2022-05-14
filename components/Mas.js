@@ -1,8 +1,7 @@
-
-const Mas = ({ title, slogan }) => {
+const Mas = ({ title }) => {
   return (
     <div className="pb-16 text-center">
-      <p className="my-4 text-2xl">{title}<br/>{slogan}</p>
+      <p className="my-4 text-2xl">{title}</p>
     </div>
   )
 }
