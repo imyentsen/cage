@@ -11,7 +11,7 @@ const BlogPost = ({ post }) => {
             </time>
           </header>
           <main>
-            <h2 className="text-2xl mb-2 text-center leading-8">
+            <h2 className="text-2xl mb-2 text-center leading-10">
               {post.title}
             </h2>
             <div className='p-4 my-4 flex justify-center align-center bg-white'>
@@ -21,10 +21,12 @@ const BlogPost = ({ post }) => {
                 height={550}
               />
             </div>
-            <p className="leading-8 text-gray-700 dark:text-gray-300">
+            <p className="leading-8 text-gray-900 dark:text-gray-300">
               {post.summary}
+            </p>
+            <p className="text-center">
               <Link href={`${BLOG.path}/${post.slug}`}>
-                <button className='bg-gray-900 hover:bg-gray-700 text-white font-bold mx-2 py-2 px-4 rounded-full'>
+                <button className='bg-gray-900 hover:bg-gray-700 text-white font-bold mx-2 py-1 px-4 rounded-full'>
                     More
                 </button>
               </Link>
