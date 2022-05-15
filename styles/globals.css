@@ -27,7 +27,7 @@
   font-display: swap;
   font-style: monospace;
   font-named-instance: 'Regular';
-  src: url('/fonts/SpaceMono-Regular.ttf') format('ttf');
+  src: url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 }
 
 html {
