@@ -55,8 +55,8 @@ export const data = {
     {
       label: 'USA:RENT',
       data: [0.27, 0.27, 0.27, 0.28, 0.29, 0.29, 0.30, 0.31, 0.32, 0.33, 0.35, 0.36, 0.38, 0.40, 0.42, 0.45, 0.48, 0.52, 0.56, 0.60, 0.66, 0.72, 0.79, 0.87, 0.96],
-      borderColor: '#601E21',
-      backgroundColor: '#601E21',
+      borderColor: '#B59173',
+      backgroundColor: '#8A6451',
       yAxisID: 'y'
     },
     {
@@ -66,6 +66,20 @@ export const data = {
       backgroundColor: '#3E88C4',
       yAxisID: 'y'
     },
+    {
+      label: 'NORWAY:RENT',
+      data: [0.32, 0.38, 0.46, 0.54, 0.64, 0.75, 0.88, 1.03, 1.20, 1.39, 1.62, 1.87, 2.16, 2.50, 2.88, 3.32, 3.82, 4.40, 5.06, 5.82, 6.68, 7.68, 8.82, 10.12, 11.62],
+      borderColor: '#384C73',
+      backgroundColor: '#384C73',
+      yAxisID: 'y'
+    },
+    {
+      label: 'JAPAN:BUY',
+      data: [0.32, 0.38, 0.46, 0.54, 0.64, 0.75, 0.88, 1.03, 1.20, 1.39, 1.62, 1.87, 2.16, 2.50, 2.88, 3.32, 3.82, 4.40, 5.06, 5.82, 6.68, 7.68, 8.82, 10.12, 11.62],
+      borderColor: '#384C73',
+      backgroundColor: '#CB554D',
+      yAxisID: 'y'
+    }
   ]
 }
 
