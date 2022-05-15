@@ -3,7 +3,8 @@ import {
   Chart as ChartJS,
   CategoryScale,
   LinearScale,
-  BarElement,
+  PointElement,
+  LineElement,
   Title,
   Tooltip,
   Legend
@@ -13,7 +14,8 @@ import { Bar } from 'react-chartjs-2'
 ChartJS.register(
   CategoryScale,
   LinearScale,
-  BarElement,
+  PointElement,
+  LineElement,
   Title,
   Tooltip,
   Legend
@@ -38,23 +40,17 @@ export const options = {
   }
 }
 
-const labels = ['Taiwan 台灣', 'Singapore 新加坡', 'Japan 日本', 'Netherlands 荷蘭', 'Germany 德國', 'USA 美國']
+const labels = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25']
 
 export const data = {
   labels,
   datasets: [
     {
-      label: '2000年代',
-      data: [155.64, 109.49, 357.16, 382.10, 539.78, 1225.92],
+      label: 'USA:BUY',
+      data: [1.00, 1.04, 1.08, 1.12, 1.17, 1.21, 1.26, 1.31, 1.36, 1.42, 1.47, 1.53, 1.59, 1.65, 1.72, 1.79, 1.86, 1.93, 2.01, 2.09, 2.17, 2.26, 2.34, 2.44, 2.53],
       backgroundColor: '#B59173',
       yAxisID: 'y'
     },
-    {
-      label: '最近統計',
-      data: [160.57, 91.75, 423.79, 373.01, 599.11, 1355.40],
-      backgroundColor: '#2A303F',
-      yAxisID: 'y'
-    }
   ]
 }
 

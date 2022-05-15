@@ -70,7 +70,7 @@ export const data = {
   ]
 }
 
-function V050122 () {
+function GRAPH () {
   return (
   <div className="my-auto chart-wrapper bg-white">
     <Bar options={options} data={data} height={500}/>
@@ -78,4 +78,4 @@ function V050122 () {
   )
 }
 
-export default V050122
+export default GRAPH
