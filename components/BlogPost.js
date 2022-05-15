@@ -24,7 +24,7 @@ const BlogPost = ({ post }) => {
             <p className="leading-8 text-gray-900 dark:text-gray-300">
               {post.summary}
             </p>
-            <p className="text-center">
+            <p className="mt-4 text-center">
               <Link href={`${BLOG.path}/${post.slug}`}>
                 <button className='bg-gray-900 hover:bg-gray-700 text-white font-bold mx-2 py-1 px-2 rounded-full'>
                     More
