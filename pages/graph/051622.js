@@ -90,14 +90,14 @@ export const data = {
     {
       label: 'TAIWAN:BUY',
       data: [1.00, 1.06, 1.13, 1.20, 1.28, 1.36, 1.45, 1.54, 1.63, 1.74, 1.85, 1.97, 2.09, 2.22, 2.36, 2.51, 2.67, 2.84, 3.02, 3.21, 3.42, 3.63, 3.86, 4.11, 4.37],
-      borderColor: '#4D896D',
+      borderColor: '#4D896D75',
       backgroundColor: '#4D896D',
       yAxisID: 'y'
     },
     {
       label: 'TAIWAN:RENT',
       data: [0.34, 0.43, 0.54, 0.66, 0.79, 0.95, 1.13, 1.33, 1.57, 1.84, 2.15, 2.50, 2.91, 3.38, 3.91, 4.52, 5.23, 6.03, 6.95, 8.01, 9.22, 10.60, 12.19, 14.01, 16.10],
-      borderColor: '#2A4C3B',
+      borderColor: '#2A4C3B75',
       backgroundColor: '#2A4C3B',
       yAxisID: 'y'
     },
