@@ -14,6 +14,9 @@ class MyDocument extends Document {
         className={BLOG.appearance === 'dark' ? 'dark' : undefined}
       >
         <Head>
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> 
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet"/>
           {BLOG.font && BLOG.font === 'serif'
             ? (
             <>
