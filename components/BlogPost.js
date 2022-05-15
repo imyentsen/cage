@@ -14,7 +14,7 @@ const BlogPost = ({ post }) => {
             <h2 className="text-2xl mb-2 text-center leading-10">
               {post.titleen}
             </h2>
-            <h2 className="text-2xl mb-2 text-center leading-10">
+            <h2 className="text-xl mb-2 text-center leading-10">
               {post.title}
             </h2>
             <div className='p-2 md:p-4 my-4 flex justify-center align-center bg-white'>

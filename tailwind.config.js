@@ -23,7 +23,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Inter"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"Sora"', ...fontFamily.sans, ...fontSansCJK],
         serif: ['"Source Serif"', ...fontFamily.serif, ...fontSerifCJK],
         mono: ['"Space Mono"', ...fontFamily.mono, ...fontSerifCJK],
         noEmoji: [
