@@ -25,10 +25,6 @@ export const options = {
   plugins: {
     legend: {
       position: 'top'
-    },
-    title: {
-      display: true,
-      text: '人均擁有建築用地的面積（平方公尺）'
     }
   },
   scales: {
@@ -42,7 +38,7 @@ export const options = {
   }
 }
 
-const labels = ['台灣', '新加坡', '日本', '荷蘭', '德國', '美國']
+const labels = ['Taiwan 台灣', 'Singapore 新加坡', 'Japan 日本', 'Netherlands 荷蘭', 'Germany 德國', 'USA 美國']
 
 export const data = {
   labels,

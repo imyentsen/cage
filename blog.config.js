@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'The Cage Revisited',
+  title: 'Cage Revisited',
   author: 'Ansin Lau',
   email: 'y@dualai.com',
   link: 'https://nobelium.vercel.app',
-  description: 'An inforgraph a day opens your mind on key  issues',
+  description: 'An inforgraph a day opens your mind on key issues',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']

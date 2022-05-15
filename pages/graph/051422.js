@@ -54,7 +54,7 @@ export const data = {
   labels,
   datasets: [
     {
-      label: 'Avg. Land Size for Construction Per Capita 人均建地面積 (m²)',
+      label: 'Construction Land Size Per Capita 人均建地面積 (m²)',
       data: [91.75, 160.57, 373.01, 423.79, 599.11, 1355.40],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#2A303F',
