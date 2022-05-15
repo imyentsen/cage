@@ -9,7 +9,7 @@ import {
   Tooltip,
   Legend
 } from 'chart.js'
-import { Bar } from 'react-chartjs-2'
+import { Line } from 'react-chartjs-2'
 
 ChartJS.register(
   CategoryScale,
@@ -48,14 +48,14 @@ export const data = {
     {
       label: 'USA:BUY',
       data: [1.00, 1.04, 1.08, 1.12, 1.17, 1.21, 1.26, 1.31, 1.36, 1.42, 1.47, 1.53, 1.59, 1.65, 1.72, 1.79, 1.86, 1.93, 2.01, 2.09, 2.17, 2.26, 2.34, 2.44, 2.53],
-      borderColor: '#CB554D',
-      backgroundColor: '#CB554D',
+      borderColor: '#B59173',
+      backgroundColor: '#B59173',
       yAxisID: 'y'
     },
     {
       label: 'USA:RENT',
       data: [0.27, 0.27, 0.27, 0.28, 0.29, 0.29, 0.30, 0.31, 0.32, 0.33, 0.35, 0.36, 0.38, 0.40, 0.42, 0.45, 0.48, 0.52, 0.56, 0.60, 0.66, 0.72, 0.79, 0.87, 0.96],
-      borderColor: '#B59173',
+      borderColor: '#8A6451',
       backgroundColor: '#8A6451',
       yAxisID: 'y'
     },
@@ -76,8 +76,15 @@ export const data = {
     {
       label: 'JAPAN:BUY',
       data: [0.32, 0.38, 0.46, 0.54, 0.64, 0.75, 0.88, 1.03, 1.20, 1.39, 1.62, 1.87, 2.16, 2.50, 2.88, 3.32, 3.82, 4.40, 5.06, 5.82, 6.68, 7.68, 8.82, 10.12, 11.62],
-      borderColor: '#384C73',
+      borderColor: '#CB554D',
       backgroundColor: '#CB554D',
+      yAxisID: 'y'
+    },
+    {
+      label: 'JAPAN:RENT',
+      data: [0.32, 0.38, 0.46, 0.54, 0.64, 0.75, 0.88, 1.03, 1.20, 1.39, 1.62, 1.87, 2.16, 2.50, 2.88, 3.32, 3.82, 4.40, 5.06, 5.82, 6.68, 7.68, 8.82, 10.12, 11.62],
+      borderColor: '#601E21',
+      backgroundColor: '#601E21',
       yAxisID: 'y'
     }
   ]
