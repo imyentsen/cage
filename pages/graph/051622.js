@@ -55,8 +55,8 @@ export const data = {
     {
       label: 'USA:RENT',
       data: [0.27, 0.27, 0.27, 0.28, 0.29, 0.29, 0.30, 0.31, 0.32, 0.33, 0.35, 0.36, 0.38, 0.40, 0.42, 0.45, 0.48, 0.52, 0.56, 0.60, 0.66, 0.72, 0.79, 0.87, 0.96],
-      borderColor: '#8A645175',
-      backgroundColor: '#8A6451',
+      borderColor: '#C1572275',
+      backgroundColor: '#C15722',
       yAxisID: 'y'
     },
     {
@@ -69,8 +69,8 @@ export const data = {
     {
       label: 'NORWAY:RENT',
       data: [0.32, 0.38, 0.46, 0.54, 0.64, 0.75, 0.88, 1.03, 1.20, 1.39, 1.62, 1.87, 2.16, 2.50, 2.88, 3.32, 3.82, 4.40, 5.06, 5.82, 6.68, 7.68, 8.82, 10.12, 11.62],
-      borderColor: '#384C7375',
-      backgroundColor: '#384C73',
+      borderColor: '#1A418D75',
+      backgroundColor: '#1A418D',
       yAxisID: 'y'
     },
     {
@@ -83,8 +83,8 @@ export const data = {
     {
       label: 'JAPAN:RENT',
       data: [0.33, 0.41, 0.50, 0.61, 0.73, 0.87, 1.03, 1.21, 1.42, 1.66, 1.93, 2.25, 2.61, 3.02, 3.49, 4.04, 4.66, 5.37, 6.19, 7.12, 8.19, 9.42, 10.83, 12.44, 14.29],
-      borderColor: '#601E2175',
-      backgroundColor: '#601E21',
+      borderColor: '#9C121875',
+      backgroundColor: '#9C1218',
       yAxisID: 'y'
     },
     {
@@ -97,8 +97,8 @@ export const data = {
     {
       label: 'TAIWAN:RENT',
       data: [0.34, 0.43, 0.54, 0.66, 0.79, 0.95, 1.13, 1.33, 1.57, 1.84, 2.15, 2.50, 2.91, 3.38, 3.91, 4.52, 5.23, 6.03, 6.95, 8.01, 9.22, 10.60, 12.19, 14.01, 16.10],
-      borderColor: '#2A4C3B75',
-      backgroundColor: '#2A4C3B',
+      borderColor: '#12673D75',
+      backgroundColor: '#12673D',
       yAxisID: 'y'
     },
     {
@@ -111,8 +111,8 @@ export const data = {
     {
       label: 'KOREA:RENT',
       data: [0.35, 0.45, 0.56, 0.69, 0.84, 1.01, 1.21, 1.43, 1.69, 1.98, 2.32, 2.71, 3.15, 3.66, 4.24, 4.91, 5.67, 6.55, 7.56, 8.71, 10.03, 11.54, 13.27, 15.26, 17.53],
-      borderColor: '#432D4D75',
-      backgroundColor: '#432D4D',
+      borderColor: '#500E6D75',
+      backgroundColor: '#500E6D',
       yAxisID: 'y'
     }
   ]
