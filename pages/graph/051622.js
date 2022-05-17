@@ -64,8 +64,8 @@ export const data = {
     {
       label: 'NORWAY:BUY',
       data: [1.00, 1.05, 1.11, 1.17, 1.24, 1.30, 1.37, 1.45, 1.53, 1.61, 1.70, 1.79, 1.89, 1.99, 2.10, 2.21, 2.33, 2.46, 2.59, 2.73, 2.88, 3.04, 3.20, 3.37, 3.56],
-      borderColor: '#3E88C475',
-      backgroundColor: '#3E88C4',
+      borderColor: '#3E74C475',
+      backgroundColor: '#3E74C4',
       hidden: true,
       yAxisID: 'y'
     },
@@ -96,8 +96,8 @@ export const data = {
     {
       label: 'TAIWAN:BUY',
       data: [1.00, 1.06, 1.13, 1.20, 1.28, 1.36, 1.45, 1.54, 1.63, 1.74, 1.85, 1.97, 2.09, 2.22, 2.36, 2.51, 2.67, 2.84, 3.02, 3.21, 3.42, 3.63, 3.86, 4.11, 4.37],
-      borderColor: '#4D896D75',
-      backgroundColor: '#4D896D',
+      borderColor: '#5EAF8475',
+      backgroundColor: '#5EAF84',
       yAxisID: 'y'
     },
     {
