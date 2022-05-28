@@ -11,7 +11,7 @@ const BlogPost = ({ post }) => {
             </time>
           </header>
           <main>
-            <h2 className="text-2xl mb-2 text-center leading-10">
+            <h2 className="text-2xl mb-2 font-title text-center leading-10">
               {post.titleen}
             </h2>
             <h2 className="text-xl mb-2 text-center leading-10">

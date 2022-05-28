@@ -23,9 +23,10 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"Sora"', ...fontFamily.sans, ...fontSansCJK],
+        title: ['"Sora"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"Ibm Plex Sans"', ...fontFamily.sans, ...fontSansCJK],
         serif: ['"Source Serif"', ...fontFamily.serif, ...fontSerifCJK],
-        mono: ['"Space Mono"', ...fontFamily.mono, ...fontSerifCJK],
+        mono: ['"Ibm Plex Mono"', ...fontFamily.mono, ...fontSerifCJK],
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
