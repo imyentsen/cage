@@ -15,7 +15,7 @@ const BlogPost = ({ post }) => {
           </header>
           <main>
             <div className='p-6 md:p-8'>
-              <h2 className="text-3xl md:text-lg font-bold text-gray-900 font-title text-center leading-normal">
+              <h2 className="text-lg md:text-2xl font-bold text-gray-900 font-title text-center leading-normal">
                 {post.title}
               </h2>
             </div>
@@ -34,8 +34,8 @@ const BlogPost = ({ post }) => {
                 {post.summarytw}
               </p>
             </div>
-            <div className='py-2 h-14'>
-              <p className="text-center">
+            <div className='py-2 h-14 flex'>
+              <p className="text-center self-center">
                 <Link href={`${BLOG.path}/${post.slug}`}>
                   <button className='border border-white hover:border-2 font-title font-strong text-white py-2 px-4'>
                       More
