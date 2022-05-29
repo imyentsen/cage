@@ -74,7 +74,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           </Link>
           {navBarTitle
             ? (
-            <p className="ml-2 font-medium text-black">
+            <p className="ml-2 font-medium text-black hidden">
               {navBarTitle}
             </p>
               )
