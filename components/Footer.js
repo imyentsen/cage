@@ -21,13 +21,13 @@ const Footer = ({ fullWidth }) => {
         <p className="text-xl text-gray-900 font-title font-bold">
           Cage Open
         </p>
-        <p>
+        <p className="text-base text-gray-900">
           A side-project by designer Ansin Lau <br/>
         </p>
       </div>
-      <p className="text-base text-gray-900">
-        Read more about <Link href="/about"><a className='underline hover:underline-offset-4'>the idea</a></Link><br/>
-        Stay tuned with <a href="insta" className='underline hover:underline-offset-4'> Instagram</a> or <a href="facebook" className='underline hover:underline-offset-4'> Facebook</a>
+      <p className="text-base text-gray-900 py-2">
+        <Link href="/about"><a className='underline hover:underline-offset-4'>About</a></Link><br/>
+        <a href="insta" className='underline hover:underline-offset-4'> Instagram</a>&nbsp;<a href="facebook" className='underline hover:underline-offset-4'> Facebook</a>
       </p>
       <p>
       © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
