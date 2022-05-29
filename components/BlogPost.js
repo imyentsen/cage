@@ -5,15 +5,15 @@ import formatDate from '@/lib/formatDate'
 const BlogPost = ({ post }) => {
   return (
         <article key={post.id} className="mb-10 md:mb-12 px-2 py-8 md:p-12 md:border md:border-gray-400">
-          <header className="flex flex-col justify-between text-black text-center">
-            <time className="text-xl mb-2 font-mono">
+          <header className="flex flex-col justify-between text-center md:border-b-0 border-b border-white">
+            <time className="text-lg mb-2 text-white font-mono">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
             </time>
-          </header>
-          <main>
-            <h2 className="text-2xl mb-2 font-title text-center leading-10">
+            <h2 className="text-2xl text-white mb-2 font-title text-center leading-10">
               {post.titleen}
             </h2>
+          </header>
+          <main>
             <div className='p-2 md:p-4 my-4 flex justify-center align-center bg-white'>
               <iframe
                 src={post.image}
