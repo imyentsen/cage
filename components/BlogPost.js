@@ -4,7 +4,7 @@ import formatDate from '@/lib/formatDate'
 
 const BlogPost = ({ post }) => {
   return (
-        <article key={post.id} className="mb-0 md:mb-8 px-0 pb-4 border-b border-white md:border md:border-post md:border-8 md:outline md:outline-1 md:outline-offset-8 md:outline-gray-400 bg-post">
+        <article key={post.id} className="mb-0 md:mb-8 px-0 pb-4 border-b border-white md:border md:border-post md:border-8 bg-post">
           <header className="px-4 py-2 flex flex-row justify-between border-b border-white text-white">
             <time className="text-base font-mono uppercase">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}

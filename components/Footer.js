@@ -12,7 +12,7 @@ const Footer = ({ fullWidth }) => {
         !fullWidth ? 'max-w-2xl px-0' : 'px-4 md:px-24'
       }`}
     >
-      <div className='py-2'> 
+      <div className='py-2'>
         <Link href="/">
           <a aria-label={BLOG.title}>
             <Image src="favicon.svg" height={64} width={64} />

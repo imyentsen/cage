@@ -111,7 +111,7 @@ nav {
 
 @media (min-width: 768px) {
   .sticky-nav-full {
-    @apply max-w-full border-b  border-gray-400 dark:border-gray-600 dark:border-opacity-50;
+    @apply max-w-full border-b  border-post dark:border-gray-600 dark:border-opacity-50;
   }
   .header-name {
     display: block;
