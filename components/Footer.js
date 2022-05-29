@@ -27,7 +27,7 @@ const Footer = ({ fullWidth }) => {
       </div>
       <p className="text-base text-gray-900 py-2">
         <Link href="/about"><a className='underline hover:underline-offset-4'>About</a></Link><br/>
-        <a href="insta" className='underline hover:underline-offset-4'> Instagram</a>&nbsp;<a href="facebook" className='underline hover:underline-offset-4'> Facebook</a>
+        <a href="insta" className='underline hover:underline-offset-4'> Instagram</a>&nbsp;&nbsp;<a href="facebook" className='underline hover:underline-offset-4'>Facebook</a>
       </p>
       <p>
       © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
