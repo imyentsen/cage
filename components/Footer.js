@@ -12,16 +12,21 @@ const Footer = ({ fullWidth }) => {
         !fullWidth ? 'max-w-2xl px-0' : 'px-4 md:px-24'
       }`}
     >
-      <Link href="/">
-        <a aria-label={BLOG.title}>
-          <Image src="favicon.svg" height={64} width={64} />
-        </a>
-      </Link>
-      <p className="text-xl text-gray-900">
-        Cage Open
-      </p>
+      <div className='py-2'> 
+        <Link href="/">
+          <a aria-label={BLOG.title}>
+            <Image src="favicon.svg" height={64} width={64} />
+          </a>
+        </Link>
+        <p className="text-xl text-gray-900 font-title font-bold">
+          Cage Open
+        </p>
+        <p>
+          A side-project by designer Ansin Lau <br/>
+        </p>
+      </div>
       <p className="text-base text-gray-900">
-        A side-project by designer Ansin Lau <br/>Read more about <Link href="/about"><a className='underline hover:underline-offset-4'>the idea</a></Link><br/>
+        Read more about <Link href="/about"><a className='underline hover:underline-offset-4'>the idea</a></Link><br/>
         Stay tuned with <a href="insta" className='underline hover:underline-offset-4'> Instagram</a> or <a href="facebook" className='underline hover:underline-offset-4'> Facebook</a>
       </p>
       <p>
