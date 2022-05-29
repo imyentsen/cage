@@ -45,7 +45,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
         tags={tags}
         currentTag={currentTag}
       />
-      <div className="article-container my-8">
+      <div className="article-container my-12">
         {!filteredBlogPosts.length && (
           <p className="text-gray-500 dark:text-gray-300">No posts found.</p>
         )}

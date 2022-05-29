@@ -29,7 +29,7 @@ const Layout = ({
       type="article"
       fullWidth={fullWidth}
     >
-      <article>
+      <article className='px-4 md:px-0'>
         <h1 className="font-bold text-3xl text-black dark:text-white">
           {frontMatter.title}
         </h1>
