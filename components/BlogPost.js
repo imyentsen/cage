@@ -15,7 +15,7 @@ const BlogPost = ({ post }) => {
           </header>
           <main>
             <div className='p-6 md:p-8'>
-              <h2 className="text-lg md:text-2xl font-bold text-gray-900 font-title text-center leading-normal">
+              <h2 className="text-lg md:text-2xl font-bold text-black font-title text-center leading-normal">
                 {post.title}
               </h2>
             </div>
@@ -27,10 +27,10 @@ const BlogPost = ({ post }) => {
               />
             </div>
             <div className='p-4 flex flex-col md:flex-row justify-between '>
-              <p className="py-1 md:p-2 leading-normal text-lg text-gray-900 md:flex-grow dark:text-gray-300">
+              <p className="py-1 md:p-2 leading-normal text-gray-900 md:flex-grow dark:text-gray-300">
                 {post.summary}
               </p>
-              <p className="py-1 md:p-2 leading-relaxed text-gray-900 md:flex-none md:w-56 dark:text-gray-300">
+              <p className="py-1 md:p-2 leading-relaxed text-gray-800 md:flex-none md:w-56 dark:text-gray-300">
                 {post.summarytw}
               </p>
             </div>
