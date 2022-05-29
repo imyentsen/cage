@@ -21,7 +21,7 @@ module.exports = {
         night: {
           DEFAULT: BLOG.darkBackground || '#111827'
         },
-        bgPost: '#E5CD76',
+        post: '#E5CD76',
       },
       fontFamily: {
         title: ['"Sora"', ...fontFamily.sans, ...fontSansCJK],
