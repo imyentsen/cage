@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import BLOG from '@/blog.config'
 import { useLocale } from '@/lib/locale'
 
@@ -85,7 +84,11 @@ const Header = ({ navBarTitle, fullWidth }) => {
             </p>
               )}
         </div>
-        <NavBar />
+        <div className={`${
+          !fullWidth ? 'block' : 'hidden'
+        }`}>
+          <NavBar />
+        </div>
       </div>
     </>
   )
