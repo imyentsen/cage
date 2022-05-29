@@ -27,10 +27,10 @@ const BlogPost = ({ post }) => {
               />
             </div>
             <div className='p-4 flex flex-col md:flex-row justify-between '>
-              <p className="py-1 md:p-4 leading-4 text-gray-900 md:flex-grow dark:text-gray-300">
+              <p className="py-1 md:p-4 leading-normal text-gray-900 md:flex-grow dark:text-gray-300">
                 {post.summary}
               </p>
-              <p className="py-1 md:p-4 leading-8 text-gray-900 md:flex-none md:w-56 dark:text-gray-300">
+              <p className="py-1 md:p-4 leading-relaxed text-gray-900 md:flex-none md:w-56 dark:text-gray-300">
                 {post.summarytw}
               </p>
             </div>
