@@ -66,6 +66,7 @@ body::-webkit-scrollbar-thumb {
   top: -1px;
   transition: all 0.5s cubic-bezier(0.4, 0, 0, 1);
   background-color: #ededed;
+  @apply border-b border-slate-400;
 }
 
 .remove-sticky {
@@ -80,7 +81,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sticky-nav-full .nav {
-  @apply text-gray-600 dark:text-gray-300;
+  @apply text-gray-800 dark:text-gray-300;
 }
 
 
