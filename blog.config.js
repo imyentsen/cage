@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'Cage Revisited',
+  title: 'Cage Open',
   author: 'Ansin Lau',
   email: 'y@dualai.com',
   link: 'https://nobelium.vercel.app',
