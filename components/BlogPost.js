@@ -30,7 +30,7 @@ const BlogPost = ({ post }) => {
               <p className="py-1 md:p-2 leading-normal text-gray-900 md:flex-grow dark:text-gray-300">
                 {post.summary}
               </p>
-              <p className="py-1 md:p-2 leading-relaxed text-gray-800 md:flex-none md:w-56 dark:text-gray-300">
+              <p className="py-1 md:p-2 leading-relaxed text-gray-800 md:flex-none md:w-56 dark:text-gray-300 font-light">
                 {post.summarytw}
               </p>
             </div>

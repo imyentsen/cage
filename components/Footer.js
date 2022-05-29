@@ -26,7 +26,7 @@ const Footer = ({ fullWidth }) => {
         </p>
       </div>
       <p className="text-base text-gray-900 py-2">
-        <Link href="/about"><a className='underline hover:underline-offset-4'>About</a></Link><br/>
+        <Link href="/about"><a className='underline hover:underline-offset-4'>About</a></Link>&nbsp;&nbsp;<Link href="/about-tw"><a className='underline hover:underline-offset-4'>關於</a></Link><br/>
         <a href="insta" className='underline hover:underline-offset-4'> Instagram</a>&nbsp;&nbsp;<a href="facebook" className='underline hover:underline-offset-4'>Facebook</a>
       </p>
       <p>
