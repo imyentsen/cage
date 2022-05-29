@@ -34,8 +34,8 @@ const Layout = ({
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
-          <nav className="flex mt-7 items-start text-gray-500 dark:text-gray-400">
-            <div className="mr-2 mb-4 md:ml-0">
+          <nav className="flex mt-7 items-start text-gray-700 dark:text-gray-400">
+            <div className="mr-2 mb-4 md:ml-0 font-mono">
               {formatDate(
                 frontMatter?.date?.start_date || frontMatter.createdTime,
                 BLOG.lang
