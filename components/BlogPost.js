@@ -4,36 +4,45 @@ import formatDate from '@/lib/formatDate'
 
 const BlogPost = ({ post }) => {
   return (
-        <article key={post.id} className="mb-0 md:mb-12 px-2 py-8 md:p-4 md:border md:border-gray-400 bg-bgPost">
-          <header className="flex flex-col justify-between text-center md:border-b-0 border-b border-white">
-            <time className="text-base mb-2 text-white tex font-mono">
+        <article key={post.id} className="mb-0 md:mb-8 px-0 pb-4 border-b-1 border-gray-400 md:border md:border-gray-400 bg-bgPost">
+          <header className="px-4 py-2 flex flex-row justify-between border-b border-white text-white">
+            <time className="text-base font-mono">
               {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
             </time>
-            <h2 className="text-2xl text-gray-900 mb-2 font-title text-center leading-10">
-              {post.title}
-            </h2>
+            <div className="text-base font-mono">
+              {post.tags}
+            </div>
           </header>
           <main>
-            <div className='p-2 md:p-4 my-4 flex justify-center align-center bg-white'>
+            <div className='p-6 md:p-8'>
+              <h2 className="text-xl md:text-lg font-bold text-gray-900 font-title text-center leading-6 md:leading-8">
+                {post.title}
+              </h2>
+            </div>
+            <div className='p-0 md:p-4 flex justify-center align-center bg-white'>
               <iframe
                 src={post.image}
                 width="100%"
                 height={500}
               />
             </div>
-            <p className="leading-8 text-gray-900 dark:text-gray-300">
-              {post.summary}
-            </p>
-            <p className="leading-8 text-gray-900 dark:text-gray-300">
-              {post.summarytw}
-            </p>
-            <p className="mt-6 text-center">
-              <Link href={`${BLOG.path}/${post.slug}`}>
-                <button className='bg-gray-800 hover:bg-gray-600 text-white mx-2 py-1 px-3 rounded-full'>
-                    More
-                </button>
-              </Link>
-            </p>
+            <div className='px-4 py-2 flex flex-col md:flex-row justify-between '>
+              <p className="leading-4 text-gray-900 md:flex-grow dark:text-gray-300">
+                {post.summary}
+              </p>
+              <p className="leading-8 text-gray-900 md:flex-none md:w-56 dark:text-gray-300">
+                {post.summarytw}
+              </p>
+            </div>
+            <div className='p-4'>
+              <p className="text-center">
+                <Link href={`${BLOG.path}/${post.slug}`}>
+                  <button className='border border-white hover:border-2 text-white py-2 px-4'>
+                      More
+                  </button>
+                </Link>
+              </p>
+            </div>
           </main>
         </article>
   )
