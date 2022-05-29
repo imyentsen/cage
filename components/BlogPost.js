@@ -18,8 +18,7 @@ const BlogPost = ({ post }) => {
               <iframe
                 src={post.image}
                 width="100%"
-                height={550}
-                style="background-color: #fff;"
+                height={520}
               />
             </div>
             <p className="leading-8 text-gray-900 dark:text-gray-300">
