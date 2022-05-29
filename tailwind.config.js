@@ -21,7 +21,7 @@ module.exports = {
         night: {
           DEFAULT: BLOG.darkBackground || '#111827'
         },
-        'bgOrange': '#FDE68A',
+        bgOrange: '#FDE68A',
       },
       fontFamily: {
         title: ['"Sora"', ...fontFamily.sans, ...fontSansCJK],

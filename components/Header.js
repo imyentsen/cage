@@ -17,7 +17,7 @@ const NavBar = () => {
             link.show && (
               <li
                 key={link.id}
-                className="block ml-4 text-black dark:text-gray-50 nav text-md"
+                className="block ml-4 text-black dark:text-gray-50 nav text-base"
               >
                 <Link href={link.to}>
                   <a>{link.name}</a>
@@ -58,7 +58,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
     <>
       <div className="observer-element h-4 md:h-12" ref={sentinalRef}></div>
       <div
-        className={`sticky-nav m-auto font-title w-full h-8 flex flex-row justify-between items-center mb-2 md:mb-12 py-8 bg-opacity-60 ${
+        className={`sticky-nav m-auto font-title w-full h-6 flex flex-row justify-between items-center mb-2 md:mb-12 py-8 bg-opacity-60 ${
           !fullWidth ? 'max-w-3xl px-4' : 'px-4 md:px-24'
         }`}
         id="sticky-nav"

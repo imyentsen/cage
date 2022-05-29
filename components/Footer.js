@@ -18,7 +18,10 @@ const Footer = ({ fullWidth }) => {
         </a>
       </Link>
       <p className="text-xl text-gray-900">
-        The Cage Revisited
+        Cage Open
+      </p>
+      <p className="text-base text-gray-900">
+        A side-project by designer Ansin Lau. <br/>Read more about <Link href="/about">the idea</Link>, or stay in tuned with <a href="insta"> Instagram</a> or <a href="facebook"> Facebook</a> 
       </p>
       <p>
       © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
