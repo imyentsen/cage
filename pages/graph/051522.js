@@ -33,6 +33,10 @@ export const options = {
       position: 'left',
       ticks: {
         color: '#121212'
+      },
+      title: {
+        display: true,
+        text: 'm^2 平方公尺'
       }
     }
   }
@@ -50,7 +54,7 @@ export const data = {
       yAxisID: 'y'
     },
     {
-      label: '最近統計',
+      label: '~2020, 最近統計',
       data: [160.57, 91.75, 423.79, 373.01, 599.11, 1355.40],
       backgroundColor: '#2A303F',
       yAxisID: 'y'

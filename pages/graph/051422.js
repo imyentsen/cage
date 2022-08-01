@@ -33,6 +33,10 @@ export const options = {
       position: 'left',
       ticks: {
         color: '#2A303F'
+      },
+      title: {
+        display: true,
+        text: 'm^2; 平方公尺'
       }
     },
     y2: {
@@ -40,6 +44,10 @@ export const options = {
       position: 'right',
       ticks: {
         color: '#CB554D'
+      },
+      title: {
+        display: true,
+        text: 'Property Price/Annual Income; 房價/年所得'
       },
       grid: {
         drawOnChartArea: false // only want the grid lines for one axis to show up

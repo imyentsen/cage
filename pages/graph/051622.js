@@ -30,11 +30,22 @@ export const options = {
     }
   },
   scales: {
+    x: {
+      display: true,
+      title: {
+        display: true,
+        text: 'Year 第幾年'
+      }
+    },
     y: {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'left',
       ticks: {
         color: '#121212'
+      },
+      title: {
+        display: true,
+        text: 'Suppose 1 = the same amount for buying an average house in the countries; 假設 1 為你的買房成本'
       }
     }
   }
