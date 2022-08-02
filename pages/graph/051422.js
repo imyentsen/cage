@@ -36,7 +36,7 @@ export const options = {
       },
       title: {
         display: true,
-        text: 'm^2; 平方公尺'
+        text: 'Square meter(m²)'
       }
     },
     y2: {
