@@ -38,7 +38,14 @@ const BlogPost = ({ post }) => {
               <p className="text-center self-center">
                 <Link href={`${BLOG.path}/${post.slug}`}>
                   <button className='border border-white hover:border-2 font-title font-strong text-white py-2 px-4'>
-                      More
+                      English
+                  </button>
+                </Link>
+              </p>
+              <p className="text-center self-center">
+                <Link href={`${BLOG.path}/${post.slug}-tw`}>
+                  <button className='border border-white hover:border-2 font-title font-strong text-white py-2 px-4'>
+                      中文
                   </button>
                 </Link>
               </p>

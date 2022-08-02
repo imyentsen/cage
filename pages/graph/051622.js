@@ -34,7 +34,7 @@ export const options = {
       display: true,
       title: {
         display: true,
-        text: 'Year 第幾年'
+        text: 'Year'
       }
     },
     y: {
@@ -45,7 +45,7 @@ export const options = {
       },
       title: {
         display: true,
-        text: 'Suppose 1 = the same amount for buying an average house in the countries; 假設 1 為你的買房成本'
+        text: 'Suppose 1 = money required for buying an average house'
       }
     }
   }
