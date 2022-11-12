@@ -44,8 +44,8 @@ export const options = {
         color: '#121212'
       },
       title: {
-        display: true,
-        text: 'Suppose 1 = money required for buying an average house'
+        display: false,
+        text: 'Population'
       }
     }
   }
@@ -61,7 +61,7 @@ export const data = {
       data: [7392380, 7156745, 6372863, 5073447, 3987642],
       borderColor: '#B5917375',
       backgroundColor: '#B59173',
-      hidden: true,
+      hidden: false,
       yAxisID: 'y'
     }
   ]
