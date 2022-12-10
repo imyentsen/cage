@@ -190,7 +190,7 @@ export const data = {
       borderColor: '#1F8AA075',
       backgroundColor: '#1F8AA0',
       hidden: false,
-      pointStyle: 'star',
+      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
@@ -200,7 +200,7 @@ export const data = {
       borderColor: '#500E6D75',
       backgroundColor: '#500E6D',
       hidden: false,
-      pointStyle: 'star',
+      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
@@ -210,7 +210,7 @@ export const data = {
       borderColor: '#11860775',
       backgroundColor: '#118607',
       hidden: false,
-      pointStyle: 'star',
+      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
@@ -220,7 +220,7 @@ export const data = {
       borderColor: '#BA290975',
       backgroundColor: '#BA2909',
       hidden: false,
-      pointStyle: 'star',
+      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
@@ -230,7 +230,7 @@ export const data = {
       borderColor: '#1A418D75',
       backgroundColor: '#1A418D',
       hidden: false,
-      pointStyle: 'star',
+      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
@@ -240,7 +240,7 @@ export const data = {
       borderColor: '#945D0B75',
       backgroundColor: '#945D0B',
       hidden: false,
-      pointStyle: 'star',
+      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     }
