@@ -40,6 +40,7 @@ export const options = {
     y: {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'left',
+      min: 0,
       ticks: {
         color: '#121212'
       },
