@@ -59,7 +59,7 @@ export const data = {
     {
       label: '首購族人口數',
       data: [7392380, 7156745, 6372863, 5073447, 3987642],
-      borderColor: '#B5917375',
+      borderColor: '#B59173',
       backgroundColor: '#B59173',
       hidden: false,
       yAxisID: 'y'
