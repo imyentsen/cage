@@ -231,7 +231,7 @@ export const data = {
       backgroundColor: '#B59173',
       hidden: false,
       yAxisID: 'y'
-    },
+    }
   ]
 }
 
