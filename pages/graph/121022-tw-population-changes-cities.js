@@ -179,8 +179,8 @@ export const data = {
     {
       label: '嘉義市',
       data: ['100781', '103587', '105834', '106940', '106835', '105241'],
-      borderColor: '#500E6D75',
-      backgroundColor: '#500E6D',
+      borderColor: '#D7376F75',
+      backgroundColor: '#D7376F',
       hidden: true,
       yAxisID: 'y'
     },
@@ -190,14 +190,18 @@ export const data = {
       borderColor: '#1F8AA075',
       backgroundColor: '#1F8AA0',
       hidden: false,
+      pointStyle: 'star',
+      usePointStyle: true,
       yAxisID: 'y'
     },
     {
       label: '高雄市',
       data: ['1121240', '1156504', '1180301', '1189173', '1181044', '1153375'],
-      borderColor: '#D7376F75',
-      backgroundColor: '#D7376F',
+      borderColor: '#500E6D75',
+      backgroundColor: '#500E6D',
       hidden: false,
+      pointStyle: 'star',
+      usePointStyle: true,
       yAxisID: 'y'
     },
     {
@@ -206,6 +210,8 @@ export const data = {
       borderColor: '#11860775',
       backgroundColor: '#118607',
       hidden: false,
+      pointStyle: 'star',
+      usePointStyle: true,
       yAxisID: 'y'
     },
     {
@@ -214,6 +220,8 @@ export const data = {
       borderColor: '#BA290975',
       backgroundColor: '#BA2909',
       hidden: false,
+      pointStyle: 'star',
+      usePointStyle: true,
       yAxisID: 'y'
     },
     {
@@ -222,6 +230,8 @@ export const data = {
       borderColor: '#1A418D75',
       backgroundColor: '#1A418D',
       hidden: false,
+      pointStyle: 'star',
+      usePointStyle: true,
       yAxisID: 'y'
     },
     {
@@ -230,6 +240,8 @@ export const data = {
       borderColor: '#945D0B75',
       backgroundColor: '#945D0B',
       hidden: false,
+      pointStyle: 'star',
+      usePointStyle: true,
       yAxisID: 'y'
     }
   ]
