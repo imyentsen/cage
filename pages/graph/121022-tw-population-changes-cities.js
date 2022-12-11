@@ -47,7 +47,14 @@ export const options = {
         display: true,
         text: '戶數變化率（%）'
       }
-    }
+    },
+    yAxes: [{
+      gridLines: {
+        display: true,
+        zeroLineColor: 'green',
+        lineWidth: 1
+      }
+    }],
   }
 }
 
@@ -146,7 +153,7 @@ export const data = {
     },
     {
       label: '花蓮縣',
-      data: ['1.04', '-0.04', '-1.45', '-2.99', '-4.51', null],
+      data: [null, '1.04', '-0.04', '-1.45', '-2.99', '-4.51', null],
       borderColor: '#5260E275',
       backgroundColor: '#5260E2',
       hidden: true,
