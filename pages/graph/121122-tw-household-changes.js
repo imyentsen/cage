@@ -43,6 +43,14 @@ export const options = {
       ticks: {
         color: '#121212'
       },
+      grid: {
+        lineWidth: function (context) {
+          if (context.tick.value === 0) {
+            return '3'
+          }
+          return '1'
+        }
+      },
       title: {
         display: false,
         text: 'Amount'
