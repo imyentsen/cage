@@ -43,7 +43,13 @@ export const options = {
       ticks: {
         color: '#121212'
       },
-      zeroLineColor: 'green',
+      grid: {
+        color: function(context) {
+          if (context.tick.value = 0) {
+            return 'red';
+          }
+        },
+      },
       title: {
         display: true,
         text: '戶數變化率（%）'
