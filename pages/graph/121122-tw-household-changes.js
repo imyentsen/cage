@@ -66,15 +66,15 @@ export const data = {
     },
     {
       label: '全國住宅存量變化',
-      data: [null, null, null, null, null, null, null, null, null, '84374', '98851', '98954', '42371', '89549', '85157', '108414', '94754', '137719', '89410', '45272', '100500', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      data: [null, null, null, null, null, null, null, null, null, '235748', '68507', '91002', '84923', '90256', '84773', '108950', '93218', '138473', '90445', '97128', '101239', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
       borderColor: '#3E74C475',
       backgroundColor: '#3E74C4',
       hidden: false,
       yAxisID: 'y'
     },
     {
-      label: '新建待售住宅',
-      data: [null, null, null, null, null, null, null, null, null, '25352', '22642', '21945', '25556', '33758', '52149', '68118', '75192', '80082', '78063', '76333', '70049', '77454', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      label: '新建餘屋數',
+      data: [null, null, null, null, null, null, null, null, null, null, '25389', '24397', '27287', '34223', '45144', '63340', '75915', '78715', '78687', '77374', '73679', '74927', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
       borderColor: '#CB554D75',
       backgroundColor: '#CB554D',
       hidden: false,

@@ -46,13 +46,6 @@ export const options = {
       title: {
         display: false,
         text: 'Amount'
-      },
-      grid: {
-        color: function(context) {
-          if (context.tick.value = 0) {
-            return Utils.CHART_COLORS.red;
-          }
-        }
       }
     }
   }
