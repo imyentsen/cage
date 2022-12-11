@@ -51,14 +51,14 @@ export const options = {
   }
 }
 
-const labels = ['2020', '2025', '2030', '2035', '2040', '2045']
+const labels = ['2020-25', '2025-30', '2030-35', '2035-40', '2040-45']
 
 export const data = {
   labels,
   datasets: [
     {
       label: '連江縣',
-      data: ['3213', '3924', '4583', '5250', '5838', '6270'],
+      data: ['711', '659', '667', '588', '432'],
       borderColor: '#E5923075',
       backgroundColor: '#E59230',
       hidden: true,
@@ -66,7 +66,7 @@ export const data = {
     },
     {
       label: '金門縣',
-      data: ['41293', '45202', '48492', '51253', '54289', '58052'],
+      data: ['3909', '3290', '2761', '3036', '3763'],
       borderColor: '#30DBE575',
       backgroundColor: '#30DBE5',
       hidden: true,
@@ -74,7 +74,7 @@ export const data = {
     },
     {
       label: '宜蘭縣',
-      data: ['173188', '179794', '184208', '186226', '186411', '183064'],
+      data: ['6606', '4414', '2018', '185', '-3347'],
       borderColor: '#41000075',
       backgroundColor: '#410000',
       hidden: true,
@@ -82,7 +82,7 @@ export const data = {
     },
     {
       label: '新竹縣',
-      data: ['205151', '226895', '247004', '265105', '280030', '289211'],
+      data: ['21744', '20109', '18101', '14925', '9181'],
       borderColor: '#BA290975',
       backgroundColor: '#BA2909',
       hidden: true,
@@ -90,7 +90,7 @@ export const data = {
     },
     {
       label: '苗栗縣',
-      data: ['189469', '199609', '207915', '214508', '219187', '220741'],
+      data: ['10140', '8306', '6593', '4679', '1554'],
       borderColor: '#67676775',
       backgroundColor: '#676767',
       hidden: true,
@@ -98,7 +98,7 @@ export const data = {
     },
     {
       label: '彰化縣',
-      data: ['398028', '409254', '416143', '420435', '420671', '414652'],
+      data: ['11226', '6889', '4292', '236', '-6019'],
       borderColor: '#11860775',
       backgroundColor: '#118607',
       hidden: true,
@@ -106,7 +106,7 @@ export const data = {
     },
     {
       label: '南投縣',
-      data: ['180788', '183723', '185212', '184891', '182499', '177644'],
+      data: ['2935', '1489', '-321', '-2392', '-4855'],
       borderColor: '#7F00AB75',
       backgroundColor: '#7F00AB',
       hidden: true,
@@ -114,7 +114,7 @@ export const data = {
     },
     {
       label: '雲林縣',
-      data: ['244324', '247276', '247627', '246239', '243202', '237248'],
+      data: ['2952', '351', '-1388', '-3037', '-5954'],
       borderColor: '#B5917375',
       backgroundColor: '#14451E',
       hidden: true,
@@ -122,7 +122,7 @@ export const data = {
     },
     {
       label: '嘉義縣',
-      data: ['186403', '188277', '188912', '188156', '186435', '182443'],
+      data: ['1874', '635', '-756', '-1721', '-3992'],
       borderColor: '#FF636375',
       backgroundColor: '#FF6363',
       hidden: true,
@@ -130,7 +130,7 @@ export const data = {
     },
     {
       label: '屏東縣',
-      data: ['293255', '295635', '294463', '290481', '283283', '272164'],
+      data: ['2380', '-1172', '-3982', '-7198', '-11119'],
       borderColor: '#040A4875',
       backgroundColor: '#040A48',
       hidden: true,
@@ -138,7 +138,7 @@ export const data = {
     },
     {
       label: '臺東縣',
-      data: ['83686', '83714', '82697', '80532', '77193', '72858'],
+      data: ['28', '-1017', '-2165', '-3339', '-4335'],
       borderColor: '#A7D62175',
       backgroundColor: '#A7D621',
       hidden: true,
@@ -146,7 +146,7 @@ export const data = {
     },
     {
       label: '花蓮縣',
-      data: ['127477', '128807', '128752', '126882', '123093', '117538'],
+      data: ['1330', '-55', '-1870', '-3789', '-5555'],
       borderColor: '#5260E275',
       backgroundColor: '#5260E2',
       hidden: true,
@@ -154,7 +154,7 @@ export const data = {
     },
     {
       label: '澎湖縣',
-      data: ['42399', '46408', '49838', '52801', '54435', '55147'],
+      data: ['4009', '3430', '2963', '1634', '712'],
       borderColor: '#45232275',
       backgroundColor: '#452322',
       hidden: true,
@@ -162,7 +162,7 @@ export const data = {
     },
     {
       label: '基隆市',
-      data: ['156833', '159089', '159811', '158540', '155084', '149209'],
+      data: ['2256', '722', '-1271', '-3456', '-5875'],
       borderColor: '#29DD9C75',
       backgroundColor: '#29DD9C',
       hidden: true,
@@ -170,7 +170,7 @@ export const data = {
     },
     {
       label: '新竹市',
-      data: ['170571', '184196', '196343', '206571', '214138', '218128'],
+      data: ['13625', '12147', '10228', '7567', '3990'],
       borderColor: '#C99C0675',
       backgroundColor: '#C99C06',
       hidden: true,
@@ -178,7 +178,7 @@ export const data = {
     },
     {
       label: '嘉義市',
-      data: ['100781', '103587', '105834', '106940', '106835', '105241'],
+      data: ['2806', '2247', '1106', '-105', '-1594'],
       borderColor: '#D7376F75',
       backgroundColor: '#D7376F',
       hidden: true,
@@ -186,7 +186,7 @@ export const data = {
     },
     {
       label: '臺北市',
-      data: ['1047774', '1079261', '1096308', '1099004', '1078602', '1030946'],
+      data: ['31487', '17047', '2696', '-20402', '-47656'],
       borderColor: '#1F8AA075',
       backgroundColor: '#1F8AA0',
       hidden: false,
@@ -196,7 +196,7 @@ export const data = {
     },
     {
       label: '高雄市',
-      data: ['1121240', '1156504', '1180301', '1189173', '1181044', '1153375'],
+      data: ['35264', '23797', '8872', '-8129', '-27669'],
       borderColor: '#500E6D75',
       backgroundColor: '#500E6D',
       hidden: false,
@@ -206,7 +206,7 @@ export const data = {
     },
     {
       label: '新北市',
-      data: ['1603229', '1704971', '1802515', '1888286', '1955332', '1995909'],
+      data: ['101742', '97544', '85771', '67046', '40577'],
       borderColor: '#11860775',
       backgroundColor: '#118607',
       hidden: false,
@@ -216,7 +216,7 @@ export const data = {
     },
     {
       label: '臺中市',
-      data: ['998989', '1062981', '1117353', '1158546', '1184680', '1192813'],
+      data: ['63992', '54372', '41193', '26134', '8133'],
       borderColor: '#BA290975',
       backgroundColor: '#BA2909',
       hidden: false,
@@ -226,7 +226,7 @@ export const data = {
     },
     {
       label: '臺南市',
-      data: ['699424', '723053', '740468', '749978', '750314', '738986'],
+      data: ['23629', '17415', '9510', '336', '-11328'],
       borderColor: '#1A418D75',
       backgroundColor: '#1A418D',
       hidden: false,
@@ -236,7 +236,7 @@ export const data = {
     },
     {
       label: '桃園市',
-      data: ['847396', '921296', '982694', '1028636', '1059762', '1070095'],
+      data: ['73900', '61398', '45942', '31126', '10333'],
       borderColor: '#945D0B75',
       backgroundColor: '#945D0B',
       hidden: false,
