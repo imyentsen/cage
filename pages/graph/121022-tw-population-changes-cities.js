@@ -43,18 +43,12 @@ export const options = {
       ticks: {
         color: '#121212'
       },
+      zeroLineColor: 'green',
       title: {
         display: true,
         text: '戶數變化率（%）'
       }
-    },
-    yAxes: [{
-      gridLines: {
-        display: true,
-        zeroLineColor: 'green',
-        lineWidth: 1
-      }
-    }]
+    }
   }
 }
 
