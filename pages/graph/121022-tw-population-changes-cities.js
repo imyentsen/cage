@@ -51,6 +51,14 @@ export const options = {
           return '1'
         }
       },
+      color: {
+        lineWidth: function (context) {
+          if (context.tick.value === 0) {
+            return '#333333'
+          }
+          return Chart.defaults.borderColor
+        }
+      },
       title: {
         display: true,
         text: '戶數變化率（%）'
