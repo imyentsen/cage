@@ -54,7 +54,7 @@ export const options = {
         zeroLineColor: 'green',
         lineWidth: 1
       }
-    }],
+    }]
   }
 }
 
