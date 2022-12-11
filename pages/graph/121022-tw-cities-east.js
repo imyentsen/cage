@@ -38,20 +38,6 @@ export const options = {
         display: true,
         text: 'Square meter(m²)'
       }
-    },
-    y2: {
-      type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
-      position: 'right',
-      ticks: {
-        color: '#CB554D'
-      },
-      title: {
-        display: true,
-        text: 'Property Price/Annual Income'
-      },
-      grid: {
-        drawOnChartArea: false // only want the grid lines for one axis to show up
-      }
     }
   }
 }
