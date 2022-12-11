@@ -46,7 +46,7 @@ export const options = {
       grid: {
         lineWidth: function (context) {
           if (context.tick.value === 0) {
-            return '2'
+            return '3'
           }
           return '1'
         }
@@ -54,7 +54,7 @@ export const options = {
       color: {
         lineWidth: function (context) {
           if (context.tick.value === 0) {
-            return '#333333'
+            return '#111'
           }
           return 'rgba(0, 0, 0, 0.1)'
         }
