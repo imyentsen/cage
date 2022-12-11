@@ -45,7 +45,7 @@ export const options = {
       },
       grid: {
         color: function (context) {
-          if (context.tick.value == 0) {
+          if (context.tick.value === 0) {
             return 'red'
           }
         }
