@@ -44,11 +44,11 @@ export const options = {
         color: '#121212'
       },
       grid: {
-        color: function(context) {
-          if (context.tick.value = 0) {
-            return 'red';
+        color: function (context) {
+          if (context.tick.value == 0) {
+            return 'red'
           }
-        },
+        }
       },
       title: {
         display: true,
