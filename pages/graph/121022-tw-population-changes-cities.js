@@ -34,7 +34,7 @@ export const options = {
       display: true,
       title: {
         display: true,
-        text: '年份區間'
+        text: '年份'
       }
     },
     y: {
