@@ -73,7 +73,7 @@ export const data = {
       data: ['0.03', '-1.21', '-2.62', '-4.15', '-5.62'],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#CB554D',
-      yAxisID: 'y2'
+      yAxisID: 'y'
     }
   ]
 }
