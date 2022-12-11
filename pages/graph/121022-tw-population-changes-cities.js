@@ -56,7 +56,7 @@ export const options = {
           if (context.tick.value === 0) {
             return '#333333'
           }
-          return Chart.defaults.borderColor
+          return 'rgba(0, 0, 0, 0.1)'
         }
       },
       title: {
