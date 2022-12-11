@@ -74,7 +74,15 @@ export const data = {
     },
     {
       label: '新建待售住宅',
-      data: [null, null, null, null, null, null, null, null, null, '25352', '22642', '21945', '25556', '33758', '52149', '68118', '75192', '80082', '78063', '76333', '70049', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      data: [null, null, null, null, null, null, null, null, null, '25352', '22642', '21945', '25556', '33758', '52149', '68118', '75192', '80082', '78063', '76333', '70049', '77454', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      borderColor: '#CB554D75',
+      backgroundColor: '#CB554D',
+      hidden: false,
+      yAxisID: 'y'
+    },
+    {
+      label: '核發住宅建照數（棟）',
+      data: [null, null, null, null, null, null, null, null, null, '25352', '22642', '21945', '25556', '33758', '52149', '68118', '75192', '80082', '78063', '76333', '70049', '77454', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
       borderColor: '#CB554D75',
       backgroundColor: '#CB554D',
       hidden: false,
