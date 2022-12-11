@@ -44,8 +44,8 @@ export const options = {
         color: '#121212'
       },
       title: {
-        display: false,
-        text: 'Amount'
+        display: true,
+        text: 'Percentage'
       }
     }
   }
