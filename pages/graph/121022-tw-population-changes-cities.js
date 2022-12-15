@@ -26,7 +26,7 @@ export const options = {
     title: {
       display: true,
       text: '台灣各縣市的戶數增幅'
-    }, 
+    },
     legend: {
       position: 'bottom'
     }
