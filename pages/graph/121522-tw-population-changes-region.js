@@ -50,6 +50,14 @@ export const options = {
       title: {
         display: true,
         text: '戶數變化率（％）'
+      },
+      grid: {
+        lineWidth: function (context) {
+          if (context.tick.value === 0) {
+            return '3'
+          }
+          return '1'
+        }
       }
     }
   }
@@ -61,7 +69,7 @@ export const data = {
   labels,
   datasets: [
     {
-      label: '全國',
+      label: '全國平均',
       data: ['4.69', '3.58', '2.39', '1.05', '-0.61'],
       borderColor: '#6929c475',
       backgroundColor: '#6929c4',
@@ -74,7 +82,6 @@ export const data = {
       borderColor: '#1192e875',
       backgroundColor: '#1192e8',
       hidden: false,
-      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
@@ -84,7 +91,6 @@ export const data = {
       borderColor: '#005d5d75',
       backgroundColor: '#005d5d',
       hidden: false,
-      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
@@ -94,7 +100,6 @@ export const data = {
       borderColor: '#9f185375',
       backgroundColor: '#9f1853',
       hidden: false,
-      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
@@ -104,7 +109,6 @@ export const data = {
       borderColor: '#fa4d5675',
       backgroundColor: '#fa4d56',
       hidden: false,
-      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
@@ -114,7 +118,6 @@ export const data = {
       borderColor: '#57040875',
       backgroundColor: '#570408',
       hidden: false,
-      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
@@ -124,15 +127,14 @@ export const data = {
       borderColor: '#19803875',
       backgroundColor: '#198038',
       hidden: false,
-      pointStyle: 'rect',
       usePointStyle: true,
       yAxisID: 'y'
     },
     {
       label: '非六都',
       data: ['3.41', '2.33', '1.35', '0.28', '-1.18'],
-      borderColor: '#002d9c75',
-      backgroundColor: '#002d9c',
+      borderColor: '#a56eff75',
+      backgroundColor: '#a56eff',
       hidden: false,
       yAxisID: 'y'
     }
