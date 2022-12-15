@@ -37,7 +37,10 @@ export const options = {
       text: '資料來源：國發會委託政大社會系《我國區域層級之家户推計模擬》'
     },
     legend: {
-      position: 'bottom'
+      position: 'bottom',
+      font: {
+        size: 16
+      }
     }
   },
   scales: {
