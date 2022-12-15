@@ -26,7 +26,7 @@ export const options = {
   maintainAspectRatio: false,
   plugins: {
     legend: {
-      position: 'top'
+      position: 'bottom'
     }
   },
   scales: {

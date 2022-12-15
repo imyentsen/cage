@@ -23,8 +23,12 @@ export const options = {
   responsive: true,
   maintainAspectRatio: false,
   plugins: {
+    title: {
+      display: true,
+      text: '台灣各縣市的戶數增幅'
+    }, 
     legend: {
-      position: 'top'
+      position: 'bottom'
     }
   },
   scales: {
