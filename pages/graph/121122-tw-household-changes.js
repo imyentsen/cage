@@ -38,18 +38,16 @@ export const options = {
     },
     legend: {
       position: 'bottom',
-      font: {
-        size: 16
+      labels: {
+        font: {
+          size: 16
+        }
       }
     }
   },
   scales: {
     x: {
-      display: true,
-      title: {
-        display: true,
-        text: '年'
-      }
+      display: true
     },
     y: {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance

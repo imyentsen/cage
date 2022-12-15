@@ -38,8 +38,10 @@ export const options = {
     },
     legend: {
       position: 'bottom',
-      font: {
-        size: 16
+      labels: {
+        font: {
+          size: 16
+        }
       }
     }
   },
