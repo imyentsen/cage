@@ -25,7 +25,10 @@ export const options = {
   plugins: {
     title: {
       display: true,
-      text: '台灣不同區域的戶數增幅'
+      text: '台灣不同區域的戶數增幅',
+      font: {
+        size: 20
+    }
     },
     legend: {
       position: 'bottom'
@@ -52,10 +55,28 @@ export const data = {
   labels,
   datasets: [
     {
+      label: '全國',
+      data: ['4.69', '3.58', '2.39', '1.05', '-0.61'],
+      borderColor: 'rgba(0, 0, 0, 0)',
+      backgroundColor: '#5260E2',
+      hidden: false,
+      yAxisID: 'y'
+    },
+    {
+      label: '臺北市',
+      data: ['3.01', '1.58', '0.25', '-1.86', '-4.42'],
+      borderColor: 'rgba(0, 0, 0, 0)',
+      backgroundColor: '#1F8AA0',
+      hidden: false,
+      pointStyle: 'rect',
+      usePointStyle: true,
+      yAxisID: 'y'
+    },
+    {
       label: '新北市',
       data: ['6.35', '5.72', '4.76', '3.55', '2.08'],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#118607',
+      backgroundColor: '#E59230',
       hidden: false,
       pointStyle: 'rect',
       usePointStyle: true,
@@ -99,24 +120,6 @@ export const data = {
       hidden: false,
       pointStyle: 'rect',
       usePointStyle: true,
-      yAxisID: 'y'
-    },
-    {
-      label: '臺北市',
-      data: ['3.01', '1.58', '0.25', '-1.86', '-4.42'],
-      borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#1F8AA0',
-      hidden: false,
-      pointStyle: 'rect',
-      usePointStyle: true,
-      yAxisID: 'y'
-    },
-    {
-      label: '全國',
-      data: ['4.69', '3.58', '2.39', '1.05', '-0.61'],
-      borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#5260E2',
-      hidden: false,
       yAxisID: 'y'
     },
     {
