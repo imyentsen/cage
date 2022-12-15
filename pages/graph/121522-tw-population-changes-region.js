@@ -27,10 +27,14 @@ export const options = {
   plugins: {
     title: {
       display: true,
-      text: '台灣不同區域的戶數增幅',
+      text: '台灣戶數變化率預估 2025-2045',
       font: {
         size: 20
       }
+    },
+    subtitle: {
+      display: true,
+      text: '資料來源：國發會委託政大社會系《我國區域層級之家户推計模擬》'
     },
     legend: {
       position: 'bottom'
