@@ -28,7 +28,7 @@ export const options = {
       text: '台灣不同區域的戶數增幅',
       font: {
         size: 20
-    }
+      }
     },
     legend: {
       position: 'bottom'
@@ -58,7 +58,7 @@ export const data = {
       label: '全國',
       data: ['4.69', '3.58', '2.39', '1.05', '-0.61'],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#5260E2',
+      backgroundColor: '#6929c4',
       hidden: false,
       yAxisID: 'y'
     },
@@ -66,7 +66,7 @@ export const data = {
       label: '臺北市',
       data: ['3.01', '1.58', '0.25', '-1.86', '-4.42'],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#1F8AA0',
+      backgroundColor: '#1192e8',
       hidden: false,
       pointStyle: 'rect',
       usePointStyle: true,
@@ -76,7 +76,7 @@ export const data = {
       label: '新北市',
       data: ['6.35', '5.72', '4.76', '3.55', '2.08'],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#E59230',
+      backgroundColor: '#005d5d',
       hidden: false,
       pointStyle: 'rect',
       usePointStyle: true,
@@ -86,7 +86,7 @@ export const data = {
       label: '桃園市',
       data: ['8.72', '6.66', '4.68', '3.03', '0.98'],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#945D0B',
+      backgroundColor: '#9f1853',
       hidden: false,
       pointStyle: 'rect',
       usePointStyle: true,
@@ -96,7 +96,7 @@ export const data = {
       label: '臺中市',
       data: ['6.41', '5.12', '3.69', '2.26', '0.69'],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#BA2909',
+      backgroundColor: '#fa4d56',
       hidden: false,
       pointStyle: 'rect',
       usePointStyle: true,
@@ -106,7 +106,7 @@ export const data = {
       label: '臺南市',
       data: ['3.38', '2.41', '1.28', '0.04', '-1.51'],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#1A418D',
+      backgroundColor: '#570408',
       hidden: false,
       pointStyle: 'rect',
       usePointStyle: true,
@@ -116,7 +116,7 @@ export const data = {
       label: '高雄市',
       data: ['3.15', '2.06', '0.75', '-0.68', '-2.34'],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#500E6D',
+      backgroundColor: '#198038',
       hidden: false,
       pointStyle: 'rect',
       usePointStyle: true,
@@ -126,7 +126,7 @@ export const data = {
       label: '非六都',
       data: ['3.41', '2.33', '1.35', '0.28', '-1.18'],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#A7D621',
+      backgroundColor: '#002d9c',
       hidden: false,
       yAxisID: 'y'
     }
