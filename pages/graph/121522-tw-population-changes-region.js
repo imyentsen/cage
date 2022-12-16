@@ -34,7 +34,7 @@ export const options = {
     },
     subtitle: {
       display: true,
-      text: '資料來源：國發會委託政大社會系《我國區域層級之家户推計模擬》'
+      text: '資料來源：國發會（2020），我國區域層級之家户推計模擬'
     },
     legend: {
       position: 'bottom',
@@ -138,8 +138,8 @@ export const data = {
     {
       label: '非六都',
       data: ['3.41', '2.33', '1.35', '0.28', '-1.18'],
-      borderColor: '#a56eff75',
-      backgroundColor: '#a56eff',
+      borderColor: '#b2860075',
+      backgroundColor: '#b28600',
       hidden: false,
       yAxisID: 'y'
     }
