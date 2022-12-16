@@ -33,7 +33,7 @@ export const options = {
     x: {
       display: true,
       title: {
-        display: true,
+        display: false,
         text: 'Year'
       }
     },
@@ -47,7 +47,7 @@ export const options = {
       title: {
         display: false,
         text: 'Population'
-      }
+      },
     }
   }
 }
@@ -60,9 +60,10 @@ export const data = {
     {
       label: '首購族人口數',
       data: [7392380, 7156745, 6372863, 5073447, 3987642],
-      borderColor: '#B59173',
-      backgroundColor: '#B59173',
+      borderColor: '#6929c475',
+      backgroundColor: '#6929c4',
       hidden: false,
+      fill: true;
       yAxisID: 'y'
     }
   ]

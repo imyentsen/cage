@@ -26,7 +26,7 @@ export const options = {
   maintainAspectRatio: false,
   plugins: {
     title: {
-      display: true,
+      display: false,
       text: '台灣的戶數淨變化與住宅存量、新建餘屋數變化比較',
       font: {
         size: 20
