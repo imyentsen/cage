@@ -52,7 +52,7 @@ export const options = {
       title: {
         display: false,
         text: 'Population'
-      },
+      }
     }
   }
 }
