@@ -63,7 +63,7 @@ export const data = {
       borderColor: '#6929c475',
       backgroundColor: '#6929c4',
       hidden: false,
-      fill: true;
+      fill: true,
       yAxisID: 'y'
     }
   ]
