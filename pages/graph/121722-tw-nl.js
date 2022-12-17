@@ -67,7 +67,7 @@ export const data = {
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#009d9a',
       yAxisID: 'y',
-      stack: 'Stack 0',
+      stack: 'Stack 0'
     },
     {
       label: '建地面積',
@@ -75,7 +75,7 @@ export const data = {
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#002d9c',
       yAxisID: 'y2',
-      stack: 'Stack 0',
+      stack: 'Stack 0'
     }
   ]
 }
