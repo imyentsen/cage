@@ -38,6 +38,13 @@ export const options = {
         font: {
           size: 16
         }
+      },
+      title: {
+        display: true,
+        text: '釋放農地面積',
+        font: {
+          size: 16
+        }
       }
     },
     y: {
@@ -48,44 +55,23 @@ export const options = {
       },
       title: {
         display: true,
-        text: '每平方公里人口數'
-      }
-    },
-    y2: {
-      type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
-      position: 'right',
-      ticks: {
-        color: '#002d9c'
-      },
-      title: {
-        display: true,
-        text: '房價/年所得'
-      },
-      grid: {
-        drawOnChartArea: false // only want the grid lines for one axis to show up
+        text: '每平方公里建地人口密度'
       }
     }
   }
 }
 
-const labels = ['台灣', '新加坡', '荷蘭', '日本', '德國', '美國']
+const labels = ['0（現況）', '1000平方公里', '2000平方公里', '3000平方公里', '日本', '新加坡', '荷蘭']
 
 export const data = {
   labels,
   datasets: [
     {
-      label: '每平方公里人口數',
-      data: [6227.81, 10899.00, 2680.88, 2359.66, 1669.14, 737.79],
+      label: '建地佔平原面積比',
+      data: [40.36, 50.90, 61.44, 82.51, 48.90, 75.25, 18.85],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#009d9a',
       yAxisID: 'y'
-    },
-    {
-      label: '房價所得比',
-      data: [21.81, 17.49, 7.15, 11.02, 8.93, 3.96],
-      borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#002d9c',
-      yAxisID: 'y2'
     }
   ]
 }
