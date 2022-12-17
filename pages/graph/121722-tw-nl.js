@@ -66,16 +66,14 @@ export const data = {
       data: [32366.6, 35224.75],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#009d9a',
-      yAxisID: 'y',
-      stack: 'Stack 0'
+      yAxisID: 'y'
     },
     {
       label: '建地面積',
       data: [3830.4, 6318.25],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#002d9c',
-      yAxisID: 'y2',
-      stack: 'Stack 0'
+      yAxisID: 'y2'
     }
   ]
 }
