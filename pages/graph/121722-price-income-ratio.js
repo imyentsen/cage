@@ -44,7 +44,7 @@ export const options = {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'left',
       ticks: {
-        color: '#2A303F'
+        color: '#009d9a'
       },
       title: {
         display: true,
@@ -55,11 +55,11 @@ export const options = {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'right',
       ticks: {
-        color: '#CB554D'
+        color: '#002d9c'
       },
       title: {
         display: true,
-        text: 'Property Price/Annual Income; 房價/年所得'
+        text: '房價/年所得'
       },
       grid: {
         drawOnChartArea: false // only want the grid lines for one axis to show up
