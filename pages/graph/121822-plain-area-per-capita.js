@@ -22,16 +22,6 @@ ChartJS.register(
 export const options = {
   responsive: true,
   maintainAspectRatio: false,
-  plugins: {
-    legend: {
-      position: 'bottom',
-      labels: {
-        font: {
-          size: 16
-        }
-      }
-    }
-  },
   scales: {
     x: {
       ticks: {
@@ -43,32 +33,24 @@ export const options = {
     y: {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'left',
-      ticks: {
-        color: '#121212'
-      },
       title: {
         display: true,
-        text: '平方公尺（m²）'
+        text: '人/平方公里'
       }
     }
   }
 }
 
-const labels = ['台灣', '新加坡', '日本', '荷蘭', '德國', '美國']
+const labels = ['台灣', '日本', '新加坡', '荷蘭']
 
 export const data = {
   labels,
   datasets: [
     {
-      label: '2000年代',
-      data: [155.64, 109.49, 357.16, 382.10, 539.78, 1225.92],
+      label: '平原人口密度',
+      data: [2513.73, 1153.86, 8201.23, 505.91],
+      borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#6929c4',
-      yAxisID: 'y'
-    },
-    {
-      label: '~2020, 最近統計',
-      data: [160.57, 91.75, 423.79, 373.01, 599.11, 1355.40],
-      backgroundColor: '#1192e8',
       yAxisID: 'y'
     }
   ]

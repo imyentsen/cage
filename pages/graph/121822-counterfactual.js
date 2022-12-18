@@ -22,6 +22,16 @@ ChartJS.register(
 export const options = {
   responsive: true,
   maintainAspectRatio: false,
+  plugins: {
+    legend: {
+      position: 'bottom',
+      labels: {
+        font: {
+          size: 16
+        }
+      }
+    }
+  },
   scales: {
     x: {
       ticks: {
@@ -33,13 +43,12 @@ export const options = {
     y: {
       type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
       position: 'left',
-      ticks: {
-        color: '#009d9a'
-      },
       title: {
         display: true,
-        text: '百分比'
-      }
+        text: '百分比（%）'
+      },
+      max: 100,
+      min: 0
     }
   }
 }
@@ -53,7 +62,7 @@ export const data = {
       label: '現況',
       data: [40.36, 50.90, 61.44, 82.51, 48.90, 75.25, 18.85],
       borderColor: 'rgba(0, 0, 0, 0)',
-      backgroundColor: '#009d9a',
+      backgroundColor: '#9f1853',
       yAxisID: 'y'
     }
   ]
