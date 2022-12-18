@@ -55,7 +55,7 @@ export const data = {
   datasets: [
     {
       label: '現況',
-      data: [40.36, 50.90, 61.44, 71.98%, 48.90, 75.25, 18.85],
+      data: [40.36, 50.90, 61.44, 71.98, 48.90, 75.25, 18.85],
       borderColor: 'rgba(0, 0, 0, 0)',
       backgroundColor: '#9f1853',
       yAxisID: 'y'
