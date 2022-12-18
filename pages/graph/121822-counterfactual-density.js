@@ -41,9 +41,7 @@ export const options = {
       title: {
         display: true,
         text: '人口/建地面積（km²）'
-      },
-      max: 100,
-      min: 0
+      }
     }
   }
 }
