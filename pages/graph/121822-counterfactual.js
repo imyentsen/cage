@@ -24,12 +24,7 @@ export const options = {
   maintainAspectRatio: false,
   plugins: {
     legend: {
-      position: 'bottom',
-      labels: {
-        font: {
-          size: 16
-        }
-      }
+      display: false
     }
   },
   scales: {
@@ -53,7 +48,7 @@ export const options = {
   }
 }
 
-const labels = ['台灣', '釋放1000km²', '釋放2000km²', '釋放3000km²', '日本', '新加坡', '荷蘭']
+const labels = ['台灣，現況', '台灣，釋放1000km²', '台灣，釋放2000km²', '台灣，釋放3000km²', '日本，現況', '新加坡，現況', '荷蘭，現況']
 
 export const data = {
   labels,

@@ -22,6 +22,16 @@ ChartJS.register(
 export const options = {
   responsive: true,
   maintainAspectRatio: false,
+  plugins: {
+    legend: {
+      position: 'bottom',
+      labels: {
+        font: {
+          size: 16
+        }
+      }
+    }
+  },
   scales: {
     x: {
       ticks: {
